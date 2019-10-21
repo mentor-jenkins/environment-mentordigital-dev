@@ -1,34 +1,70 @@
+autoUpdate:
+  enabled: false
+  schedule: ""
 cluster:
-  clusterName: ""
-  environmentGitOwner: ""
-  project: ""
-  provider: gke
-  zone: ""
-gitops: true
+  clusterName: mentordigital
+  environmentGitOwner: mentor-jenkins
+  gitKind: github
+  gitName: github
+  gitServer: https://github.com
+  namespace: jx
+  provider: eks
+  region: eu-west-1
 environments:
-- key: dev
-- key: staging
-- key: production
+- ingress:
+    domain: mentordigital.io
+    externalDNS: true
+    namespaceSubDomain: jx-dev
+    tls:
+      email: devops@mentordigital.io
+      enabled: true
+      production: false
+  key: dev
+- ingress:
+    domain: mentordigital.io
+    externalDNS: true
+    namespaceSubDomain: jx-staging
+    tls:
+      email: devops@mentordigital.io
+      enabled: true
+      production: true
+  key: staging
+- ingress:
+    domain: mentordigital.io
+    externalDNS: false
+    namespaceSubDomain: jx-production
+    tls:
+      email: devops@mentordigital.io
+      enabled: true
+      production: true
+  key: production
+gitops: true
 ingress:
-  domain: ""
-  externalDNS: false
+  domain: mentordigital.io
+  externalDNS: true
+  namespaceSubDomain: -jx.
   tls:
-    email: ""
-    enabled: false
-    production: false
+    email: devops@mentordigital.io
+    enabled: true
+    production: true
 kaniko: true
-secretStorage: local
+secretStorage: vault
 storage:
-  logs:
+  backup:
     enabled: false
+    url: ""
+  logs:
+    enabled: true
     url: ""
   reports:
-    enabled: false
+    enabled: true
     url: ""
   repository:
-    enabled: false
+    enabled: true
     url: ""
+vault: {}
+velero: {}
 versionStream:
-  ref: "master"
+  ref: master
   url: https://github.com/jenkins-x/jenkins-x-versions.git
 webhook: prow

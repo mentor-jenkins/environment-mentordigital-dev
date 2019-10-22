@@ -34,8 +34,9 @@ pipelineConfig:
             - step
             - verify
             - preinstall
+            - --provider-values-dir="kubeProviders"
             command: jx
-            dir: /workspace/source/env
+            dir: /workspace/source/
             name: verify-preinstall
           - args:
             - upgrade

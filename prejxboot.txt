@@ -1,0 +1,1074 @@
+NAMESPACE                                     NAME                                                       READY   STATUS      RESTARTS   AGE
+cert-manager                                  pod/cert-manager-c77c4c8ff-6mwtj                           1/1     Running     0          4d11h
+cert-manager                                  pod/cert-manager-cainjector-657665cbfc-4gxh9               1/1     Running     0          4d11h
+gloo-system                                   pod/api-server-98b487d97-nr2pg                             3/3     Running     0          43d
+gloo-system                                   pod/discovery-7649bf74bd-pbxls                             1/1     Running     0          43d
+gloo-system                                   pod/gloo-75d85f7458-th7r6                                  1/1     Running     0          43d
+gloo-system                                   pod/ingress-75c789c785-vd2m9                               1/1     Running     0          43d
+gloo-system                                   pod/knative-external-proxy-f99d9d6bb-hs9ql                 1/1     Running     0          43d
+gloo-system                                   pod/knative-internal-proxy-555597775b-m5f2f                1/1     Running     0          43d
+jx-edit-babadofar                             pod/exposecontroller-service-c8759ddb-qb5gf                1/1     Running     0          46d
+jx-kube-hunter                                pod/jx-kube-hunter-job-h497z                               1/1     Running     0          32d
+jx-mentor-medier-arc-loader-pr-3              pod/preview-preview-854c44f87b-6jd78                       1/1     Running     0          4d10h
+jx-mentor-medier-arc-loader-pr-4              pod/preview-preview-854dfd68f8-55vft                       1/1     Running     0          3d11h
+jx-mentor-medier-arc-transformer-pr-11        pod/preview-preview-5f67b48c49-cq84v                       1/1     Running     0          4d9h
+jx-mentor-medier-arc-transformer-pr-12        pod/preview-preview-798ff57c48-ftttw                       1/1     Running     0          7h39m
+jx-mentor-medier-jenkinsx-test3-pr-3          pod/preview-preview-85545bbc6b-hwlgz                       1/1     Running     0          15d
+jx-mentor-medier-klarna-checkout-pr-5         pod/preview-preview-659b45c68b-sbsm7                       1/1     Running     0          4d6h
+jx-mentor-medier-spring-boot-rest-test-pr-1   pod/preview-preview-57c98b8ccc-7wns9                       1/1     Running     0          40d
+jx-production                                 pod/jx-jenkinsx-test3-5f7bffcfc8-zbrqm                     1/1     Running     0          32d
+jx-staging                                    pod/jx-ans-validator-5d8c9dd8bf-rpnpt                      1/1     Running     0          18d
+jx-staging                                    pod/jx-arc-loader-6f975f8866-bp9b8                         1/1     Running     0          39d
+jx-staging                                    pod/jx-arc-transformer-66fdc6856b-dhl7n                    1/1     Running     0          4d9h
+jx-staging                                    pod/jx-jenkinsx-test3-ff8c44797-vds89                      1/1     Running     0          32d
+jx-staging                                    pod/jx-jxspringtest-7f5cf5587d-zvtcc                       1/1     Running     0          42d
+jx-staging                                    pod/jx-klarna-checkout-8678764d44-vqwkn                    1/1     Running     0          4d6h
+jx-staging                                    pod/jx-node-http-test-78bc4cb48b-499dt                     1/1     Running     0          33d
+jx-staging                                    pod/jx-polopoly-extractor-794cbfd7b7-sfgxb                 1/1     Running     0          6d7h
+jx                                            pod/crier-7dc76b7f7d-kzswm                                 1/1     Running     0          47d
+jx                                            pod/deck-76d84c77d4-7t4vq                                  1/1     Running     0          47d
+jx                                            pod/deck-76d84c77d4-rl5z6                                  1/1     Running     0          47d
+jx                                            pod/dev-postgresql-79d866f9c4-6rt2x                        1/1     Running     0          42d
+jx                                            pod/dev-sonarqube-54fb476cdd-xrdz6                         1/1     Running     0          42d
+jx                                            pod/hook-7cc766d7fb-d75dz                                  1/1     Running     0          47d
+jx                                            pod/hook-7cc766d7fb-mlttp                                  1/1     Running     0          47d
+jx                                            pod/horologium-857b46bdc-p25mj                             1/1     Running     0          47d
+jx                                            pod/jenkins-x-chartmuseum-67f75c4884-4qcjl                 1/1     Running     0          47d
+jx                                            pod/jenkins-x-controllerbuild-9b856b84b-2vjpx              1/1     Running     0          18d
+jx                                            pod/jenkins-x-controllerrole-69dcbc4c46-bqkmv              1/1     Running     0          18d
+jx                                            pod/jenkins-x-controllerteam-54d8dd86b6-gs998              1/1     Running     0          18d
+jx                                            pod/jenkins-x-gcactivities-1571680800-bf67z                0/1     Completed   0          99m
+jx                                            pod/jenkins-x-gcactivities-1571682600-9dztm                0/1     Completed   0          69m
+jx                                            pod/jenkins-x-gcpods-1571680800-vlntw                      0/1     Completed   0          99m
+jx                                            pod/jenkins-x-gcpods-1571682600-z2gfg                      0/1     Completed   0          69m
+jx                                            pod/jenkins-x-gcpreviews-1571680800-2c79d                  0/1     Error       0          98m
+jx                                            pod/jenkins-x-gcpreviews-1571680800-jstzd                  0/1     Error       0          99m
+jx                                            pod/jenkins-x-gcpreviews-1571680800-n58zm                  0/1     Error       0          94m
+jx                                            pod/jenkins-x-gcpreviews-1571680800-n9hxp                  0/1     Error       0          97m
+jx                                            pod/jenkins-x-gcpreviews-1571680800-ss965                  0/1     Error       0          99m
+jx                                            pod/jenkins-x-gcpreviews-1571680800-xhtfv                  0/1     Error       0          99m
+jx                                            pod/jenkins-x-heapster-775b47d899-lbxf2                    2/2     Running     0          18d
+jx                                            pod/jenkins-x-nexus-57c8447c4-nk7zc                        1/1     Running     0          47d
+jx                                            pod/jx-jx-app-grafana-576d4d75d4-8jzkz                     1/1     Running     0          47d
+jx                                            pod/jx-jx-app-jacoco-jx-app-jacoco-86974cc4bc-zd7mm        1/1     Running     0          31d
+jx                                            pod/pipeline-69b849759d-4smvf                              1/1     Running     0          7d1h
+jx                                            pod/pipelinerunner-67b88d6b46-gf79h                        1/1     Running     0          7d1h
+jx                                            pod/plank-7cf44f95f7-zg7fp                                 1/1     Running     0          47d
+jx                                            pod/prometheus-alertmanager-58c6876d4c-wm2xf               2/2     Running     0          43d
+jx                                            pod/prometheus-kube-state-metrics-74b57df8bd-45vvk         1/1     Running     0          43d
+jx                                            pod/prometheus-node-exporter-4tnrp                         1/1     Running     0          43d
+jx                                            pod/prometheus-node-exporter-5lkzh                         1/1     Running     0          39d
+jx                                            pod/prometheus-node-exporter-v6rfk                         1/1     Running     0          43d
+jx                                            pod/prometheus-node-exporter-xsb2f                         1/1     Running     0          43d
+jx                                            pod/prometheus-pushgateway-c497ff84d-rkrhm                 1/1     Running     0          43d
+jx                                            pod/prometheus-server-796c867465-vg6c9                     2/2     Running     0          43d
+jx                                            pod/sinker-5c565bcf76-g4hsj                                1/1     Running     0          47d
+jx                                            pod/tekton-pipelines-controller-65fff67458-lpclq           1/1     Running     0          7d1h
+jx                                            pod/tekton-pipelines-webhook-76c6bd5b6-954cr               1/1     Running     0          47d
+jx                                            pod/tide-65475dd659-w2q68                                  1/1     Running     0          47d
+knative-serving                               pod/activator-5847556cfb-b9snf                             1/1     Running     0          43d
+knative-serving                               pod/autoscaler-7854868f86-d99qf                            1/1     Running     0          43d
+knative-serving                               pod/autoscaler-hpa-cd5bb7c4c-s5vpd                         1/1     Running     0          43d
+knative-serving                               pod/controller-6999d8dc6c-t8nn5                            1/1     Running     0          43d
+knative-serving                               pod/webhook-6cdb44497f-2q4ws                               1/1     Running     0          43d
+kube-system                                   pod/aws-node-kwbr9                                         1/1     Running     0          47d
+kube-system                                   pod/aws-node-psvql                                         1/1     Running     0          45d
+kube-system                                   pod/aws-node-vtg5z                                         1/1     Running     0          39d
+kube-system                                   pod/aws-node-xpjb6                                         1/1     Running     0          47d
+kube-system                                   pod/coredns-7fb855c998-4dxt4                               1/1     Running     0          47d
+kube-system                                   pod/coredns-7fb855c998-4gccc                               1/1     Running     0          47d
+kube-system                                   pod/jxing-nginx-ingress-controller-6d6d848fc6-2p8kz        1/1     Running     0          14d
+kube-system                                   pod/jxing-nginx-ingress-controller-6d6d848fc6-848lm        1/1     Running     0          14d
+kube-system                                   pod/jxing-nginx-ingress-controller-6d6d848fc6-ll5z2        1/1     Running     0          14d
+kube-system                                   pod/jxing-nginx-ingress-default-backend-7b77969c44-d4xx7   1/1     Running     0          14d
+kube-system                                   pod/ksync-8nhcr                                            2/2     Running     0          45d
+kube-system                                   pod/ksync-c9cxk                                            2/2     Running     0          46d
+kube-system                                   pod/ksync-cs4bf                                            2/2     Running     0          46d
+kube-system                                   pod/ksync-vp7ns                                            2/2     Running     0          39d
+kube-system                                   pod/kube-proxy-b5ctn                                       1/1     Running     0          47d
+kube-system                                   pod/kube-proxy-g25wb                                       1/1     Running     0          39d
+kube-system                                   pod/kube-proxy-jpzfp                                       1/1     Running     0          45d
+kube-system                                   pod/kube-proxy-z44sv                                       1/1     Running     0          47d
+kubernetes-dashboard                          pod/dashboard-metrics-scraper-5fbf548cfd-l5mxp             1/1     Running     0          45d
+kubernetes-dashboard                          pod/kubernetes-dashboard-64b494d477-c668r                  1/1     Running     0          45d
+NAMESPACE                                     NAME                                          TYPE           CLUSTER-IP       EXTERNAL-IP                                                                     PORT(S)                      AGE
+default                                       service/kubernetes                            ClusterIP      10.100.0.1       <none>                                                                          443/TCP                      47d
+gloo-system                                   service/apiserver-ui                          NodePort       10.100.212.95    <none>                                                                          8080:32018/TCP               43d
+gloo-system                                   service/gloo                                  ClusterIP      10.100.70.138    <none>                                                                          9977/TCP                     43d
+gloo-system                                   service/knative-external-proxy                LoadBalancer   10.100.139.180   a1626a749d20d11e9b6e702e9247b004-1094444402.eu-west-1.elb.amazonaws.com         80:32716/TCP,443:32409/TCP   43d
+gloo-system                                   service/knative-internal-proxy                ClusterIP      10.100.224.179   <none>                                                                          80/TCP,443/TCP               43d
+jx-mentor-medier-arc-loader-pr-3              service/arc-loader                            ClusterIP      10.100.78.187    <none>                                                                          80/TCP                       4d13h
+jx-mentor-medier-arc-loader-pr-4              service/arc-loader                            ClusterIP      10.100.95.91     <none>                                                                          80/TCP                       3d11h
+jx-mentor-medier-arc-transformer-pr-11        service/arc-transformer                       ClusterIP      10.100.99.130    <none>                                                                          80/TCP                       5d10h
+jx-mentor-medier-arc-transformer-pr-12        service/arc-transformer                       ClusterIP      10.100.63.119    <none>                                                                          80/TCP                       7h39m
+jx-mentor-medier-jenkinsx-test3-pr-3          service/jenkinsx-test3                        ClusterIP      10.100.136.54    <none>                                                                          80/TCP                       32d
+jx-mentor-medier-klarna-checkout-pr-5         service/klarna-checkout                       ClusterIP      10.100.212.83    <none>                                                                          80/TCP                       11d
+jx-mentor-medier-spring-boot-rest-test-pr-1   service/spring-boot-rest-test                 ClusterIP      10.100.213.17    <none>                                                                          80/TCP                       40d
+jx-production                                 service/jenkinsx-test3                        ClusterIP      10.100.63.6      <none>                                                                          80/TCP                       32d
+jx-staging                                    service/ans-validator                         ClusterIP      10.100.246.197   <none>                                                                          80/TCP                       33d
+jx-staging                                    service/arc-loader                            ClusterIP      10.100.135.195   <none>                                                                          80/TCP                       39d
+jx-staging                                    service/arc-transformer                       ClusterIP      10.100.249.190   <none>                                                                          80/TCP                       24d
+jx-staging                                    service/jenkinsx-test3                        ClusterIP      10.100.5.38      <none>                                                                          80/TCP                       39d
+jx-staging                                    service/jxspringtest                          ClusterIP      10.100.7.61      <none>                                                                          80/TCP                       42d
+jx-staging                                    service/klarna-checkout                       ClusterIP      10.100.79.100    <none>                                                                          80/TCP                       18d
+jx-staging                                    service/node-http-test                        ClusterIP      10.100.218.58    <none>                                                                          80/TCP                       33d
+jx-staging                                    service/polopoly-extractor                    ClusterIP      10.100.127.92    <none>                                                                          80/TCP                       7d
+jx                                            service/deck                                  ClusterIP      10.100.5.207     <none>                                                                          80/TCP                       47d
+jx                                            service/dev-postgresql                        ClusterIP      10.100.72.31     <none>                                                                          5432/TCP                     42d
+jx                                            service/dev-sonarqube                         ClusterIP      10.100.44.238    <none>                                                                          9000/TCP                     42d
+jx                                            service/heapster                              ClusterIP      10.100.38.125    <none>                                                                          8082/TCP                     47d
+jx                                            service/hook                                  ClusterIP      10.100.176.245   <none>                                                                          80/TCP                       47d
+jx                                            service/jenkins-x-chartmuseum                 ClusterIP      10.100.214.236   <none>                                                                          8080/TCP                     47d
+jx                                            service/jx-jx-app-grafana                     ClusterIP      10.100.77.129    <none>                                                                          80/TCP                       47d
+jx                                            service/nexus                                 ClusterIP      10.100.136.12    <none>                                                                          80/TCP                       47d
+jx                                            service/pipelinerunner                        ClusterIP      10.100.191.206   <none>                                                                          80/TCP                       47d
+jx                                            service/prometheus-alertmanager               ClusterIP      10.100.80.148    <none>                                                                          80/TCP                       43d
+jx                                            service/prometheus-kube-state-metrics         ClusterIP      None             <none>                                                                          80/TCP                       43d
+jx                                            service/prometheus-node-exporter              ClusterIP      None             <none>                                                                          9100/TCP                     43d
+jx                                            service/prometheus-pushgateway                ClusterIP      10.100.169.254   <none>                                                                          9091/TCP                     43d
+jx                                            service/prometheus-server                     ClusterIP      10.100.62.143    <none>                                                                          80/TCP                       43d
+jx                                            service/tekton-pipelines-controller           ClusterIP      10.100.98.178    <none>                                                                          9090/TCP                     47d
+jx                                            service/tekton-pipelines-webhook              ClusterIP      10.100.41.144    <none>                                                                          443/TCP                      47d
+jx                                            service/tide                                  ClusterIP      10.100.250.166   <none>                                                                          80/TCP                       47d
+knative-serving                               service/activator-service                     ClusterIP      10.100.189.93    <none>                                                                          80/TCP,81/TCP,9090/TCP       43d
+knative-serving                               service/autoscaler                            ClusterIP      10.100.48.19     <none>                                                                          8080/TCP,9090/TCP,443/TCP    43d
+knative-serving                               service/controller                            ClusterIP      10.100.76.35     <none>                                                                          9090/TCP                     43d
+knative-serving                               service/webhook                               ClusterIP      10.100.120.169   <none>                                                                          443/TCP                      43d
+kube-system                                   service/jxing-nginx-ingress-controller        LoadBalancer   10.100.231.239   aef91af81cf2b11e9b9d6067fc4547be-f604b5dcd95328e0.elb.eu-west-1.amazonaws.com   80:30470/TCP,443:31347/TCP   47d
+kube-system                                   service/jxing-nginx-ingress-default-backend   ClusterIP      10.100.123.169   <none>                                                                          80/TCP                       47d
+kube-system                                   service/kube-dns                              ClusterIP      10.100.0.10      <none>                                                                          53/UDP,53/TCP                47d
+kubernetes-dashboard                          service/dashboard-metrics-scraper             ClusterIP      10.100.211.191   <none>                                                                          8000/TCP                     45d
+kubernetes-dashboard                          service/kubernetes-dashboard                  ClusterIP      10.100.131.213   <none>                                                                          443/TCP                      45d
+NAMESPACE     NAME                                      DESIRED   CURRENT   READY   UP-TO-DATE   AVAILABLE   NODE SELECTOR                 AGE
+jx            daemonset.apps/prometheus-node-exporter   4         4         4       4            4           <none>                        43d
+kube-system   daemonset.apps/aws-node                   4         4         4       4            4           <none>                        47d
+kube-system   daemonset.apps/ksync                      4         4         4       4            4           beta.kubernetes.io/os=linux   46d
+kube-system   daemonset.apps/kube-proxy                 4         4         4       4            4           <none>                        47d
+NAMESPACE                                     NAME                                                  READY   UP-TO-DATE   AVAILABLE   AGE
+cert-manager                                  deployment.apps/cert-manager                          1/1     1            1           4d11h
+cert-manager                                  deployment.apps/cert-manager-cainjector               1/1     1            1           4d11h
+gloo-system                                   deployment.apps/api-server                            1/1     1            1           43d
+gloo-system                                   deployment.apps/discovery                             1/1     1            1           43d
+gloo-system                                   deployment.apps/gloo                                  1/1     1            1           43d
+gloo-system                                   deployment.apps/ingress                               1/1     1            1           43d
+gloo-system                                   deployment.apps/knative-external-proxy                1/1     1            1           43d
+gloo-system                                   deployment.apps/knative-internal-proxy                1/1     1            1           43d
+jx-edit-babadofar                             deployment.apps/exposecontroller-service              1/1     1            1           46d
+jx-mentor-medier-arc-loader-pr-3              deployment.apps/preview-preview                       1/1     1            1           4d13h
+jx-mentor-medier-arc-loader-pr-4              deployment.apps/preview-preview                       1/1     1            1           3d11h
+jx-mentor-medier-arc-transformer-pr-11        deployment.apps/preview-preview                       1/1     1            1           5d10h
+jx-mentor-medier-arc-transformer-pr-12        deployment.apps/preview-preview                       1/1     1            1           7h39m
+jx-mentor-medier-jenkinsx-test3-pr-3          deployment.apps/preview-preview                       1/1     1            1           32d
+jx-mentor-medier-klarna-checkout-pr-5         deployment.apps/preview-preview                       1/1     1            1           11d
+jx-mentor-medier-spring-boot-rest-test-pr-1   deployment.apps/preview-preview                       1/1     1            1           40d
+jx-production                                 deployment.apps/jx-jenkinsx-test3                     1/1     1            1           32d
+jx-staging                                    deployment.apps/jx-ans-validator                      1/1     1            1           33d
+jx-staging                                    deployment.apps/jx-arc-loader                         1/1     1            1           39d
+jx-staging                                    deployment.apps/jx-arc-transformer                    1/1     1            1           24d
+jx-staging                                    deployment.apps/jx-jenkinsx-test3                     1/1     1            1           39d
+jx-staging                                    deployment.apps/jx-jxspringtest                       1/1     1            1           42d
+jx-staging                                    deployment.apps/jx-klarna-checkout                    1/1     1            1           18d
+jx-staging                                    deployment.apps/jx-node-http-test                     1/1     1            1           33d
+jx-staging                                    deployment.apps/jx-polopoly-extractor                 1/1     1            1           7d
+jx                                            deployment.apps/crier                                 1/1     1            1           47d
+jx                                            deployment.apps/deck                                  2/2     2            2           47d
+jx                                            deployment.apps/dev-postgresql                        1/1     1            1           42d
+jx                                            deployment.apps/dev-sonarqube                         1/1     1            1           42d
+jx                                            deployment.apps/hook                                  2/2     2            2           47d
+jx                                            deployment.apps/horologium                            1/1     1            1           47d
+jx                                            deployment.apps/jenkins-x-chartmuseum                 1/1     1            1           47d
+jx                                            deployment.apps/jenkins-x-controllerbuild             1/1     1            1           47d
+jx                                            deployment.apps/jenkins-x-controllerrole              1/1     1            1           47d
+jx                                            deployment.apps/jenkins-x-controllerteam              1/1     1            1           47d
+jx                                            deployment.apps/jenkins-x-heapster                    1/1     1            1           47d
+jx                                            deployment.apps/jenkins-x-nexus                       1/1     1            1           47d
+jx                                            deployment.apps/jx-jx-app-grafana                     1/1     1            1           47d
+jx                                            deployment.apps/jx-jx-app-jacoco-jx-app-jacoco        1/1     1            1           31d
+jx                                            deployment.apps/pipeline                              1/1     1            1           47d
+jx                                            deployment.apps/pipelinerunner                        1/1     1            1           47d
+jx                                            deployment.apps/plank                                 1/1     1            1           47d
+jx                                            deployment.apps/prometheus-alertmanager               1/1     1            1           43d
+jx                                            deployment.apps/prometheus-kube-state-metrics         1/1     1            1           43d
+jx                                            deployment.apps/prometheus-pushgateway                1/1     1            1           43d
+jx                                            deployment.apps/prometheus-server                     1/1     1            1           43d
+jx                                            deployment.apps/sinker                                1/1     1            1           47d
+jx                                            deployment.apps/tekton-pipelines-controller           1/1     1            1           47d
+jx                                            deployment.apps/tekton-pipelines-webhook              1/1     1            1           47d
+jx                                            deployment.apps/tide                                  1/1     1            1           47d
+knative-serving                               deployment.apps/activator                             1/1     1            1           43d
+knative-serving                               deployment.apps/autoscaler                            1/1     1            1           43d
+knative-serving                               deployment.apps/autoscaler-hpa                        1/1     1            1           43d
+knative-serving                               deployment.apps/controller                            1/1     1            1           43d
+knative-serving                               deployment.apps/webhook                               1/1     1            1           43d
+kube-system                                   deployment.apps/coredns                               2/2     2            2           47d
+kube-system                                   deployment.apps/jxing-nginx-ingress-controller        3/3     3            3           47d
+kube-system                                   deployment.apps/jxing-nginx-ingress-default-backend   1/1     1            1           47d
+kubernetes-dashboard                          deployment.apps/dashboard-metrics-scraper             1/1     1            1           45d
+kubernetes-dashboard                          deployment.apps/kubernetes-dashboard                  1/1     1            1           45d
+NAMESPACE                                     NAME                                                             DESIRED   CURRENT   READY   AGE
+cert-manager                                  replicaset.apps/cert-manager-c77c4c8ff                           1         1         1       4d11h
+cert-manager                                  replicaset.apps/cert-manager-cainjector-657665cbfc               1         1         1       4d11h
+gloo-system                                   replicaset.apps/api-server-98b487d97                             1         1         1       43d
+gloo-system                                   replicaset.apps/discovery-7649bf74bd                             1         1         1       43d
+gloo-system                                   replicaset.apps/gloo-75d85f7458                                  1         1         1       43d
+gloo-system                                   replicaset.apps/ingress-75c789c785                               1         1         1       43d
+gloo-system                                   replicaset.apps/knative-external-proxy-f99d9d6bb                 1         1         1       43d
+gloo-system                                   replicaset.apps/knative-internal-proxy-555597775b                1         1         1       43d
+jx-edit-babadofar                             replicaset.apps/exposecontroller-service-c8759ddb                1         1         1       46d
+jx-mentor-medier-arc-loader-pr-3              replicaset.apps/preview-preview-566f8ff67c                       0         0         0       4d11h
+jx-mentor-medier-arc-loader-pr-3              replicaset.apps/preview-preview-597cb76759                       0         0         0       4d13h
+jx-mentor-medier-arc-loader-pr-3              replicaset.apps/preview-preview-5c9f7494c8                       0         0         0       4d13h
+jx-mentor-medier-arc-loader-pr-3              replicaset.apps/preview-preview-854c44f87b                       1         1         1       4d10h
+jx-mentor-medier-arc-loader-pr-4              replicaset.apps/preview-preview-854dfd68f8                       1         1         1       3d11h
+jx-mentor-medier-arc-transformer-pr-11        replicaset.apps/preview-preview-569998cd5                        0         0         0       5d9h
+jx-mentor-medier-arc-transformer-pr-11        replicaset.apps/preview-preview-5f67b48c49                       1         1         1       4d9h
+jx-mentor-medier-arc-transformer-pr-11        replicaset.apps/preview-preview-667d5d8796                       0         0         0       5d10h
+jx-mentor-medier-arc-transformer-pr-11        replicaset.apps/preview-preview-98dd8d496                        0         0         0       5d7h
+jx-mentor-medier-arc-transformer-pr-12        replicaset.apps/preview-preview-798ff57c48                       1         1         1       7h39m
+jx-mentor-medier-jenkinsx-test3-pr-3          replicaset.apps/preview-preview-85545bbc6b                       1         1         1       15d
+jx-mentor-medier-jenkinsx-test3-pr-3          replicaset.apps/preview-preview-c869999b5                        0         0         0       32d
+jx-mentor-medier-klarna-checkout-pr-5         replicaset.apps/preview-preview-56fb997c4d                       0         0         0       7d4h
+jx-mentor-medier-klarna-checkout-pr-5         replicaset.apps/preview-preview-58d9c596df                       0         0         0       11d
+jx-mentor-medier-klarna-checkout-pr-5         replicaset.apps/preview-preview-59c4c99646                       0         0         0       5d10h
+jx-mentor-medier-klarna-checkout-pr-5         replicaset.apps/preview-preview-659b45c68b                       1         1         1       4d6h
+jx-mentor-medier-klarna-checkout-pr-5         replicaset.apps/preview-preview-6d64bdf7f5                       0         0         0       6d23h
+jx-mentor-medier-klarna-checkout-pr-5         replicaset.apps/preview-preview-786ccff6d9                       0         0         0       5d6h
+jx-mentor-medier-klarna-checkout-pr-5         replicaset.apps/preview-preview-85f67f96c9                       0         0         0       4d7h
+jx-mentor-medier-klarna-checkout-pr-5         replicaset.apps/preview-preview-bf948c7d8                        0         0         0       5d6h
+jx-mentor-medier-spring-boot-rest-test-pr-1   replicaset.apps/preview-preview-57c98b8ccc                       1         1         1       40d
+jx-production                                 replicaset.apps/jx-jenkinsx-test3-5f7bffcfc8                     1         1         1       32d
+jx-production                                 replicaset.apps/jx-jenkinsx-test3-7545549dd9                     0         0         0       32d
+jx-staging                                    replicaset.apps/jx-ans-validator-5d8c9dd8bf                      1         1         1       18d
+jx-staging                                    replicaset.apps/jx-ans-validator-7c658c5c9                       0         0         0       33d
+jx-staging                                    replicaset.apps/jx-ans-validator-7c7784694                       0         0         0       33d
+jx-staging                                    replicaset.apps/jx-ans-validator-8495589978                      0         0         0       33d
+jx-staging                                    replicaset.apps/jx-ans-validator-85d66d5c4c                      0         0         0       33d
+jx-staging                                    replicaset.apps/jx-arc-loader-6f975f8866                         1         1         1       39d
+jx-staging                                    replicaset.apps/jx-arc-transformer-54f7497fdc                    0         0         0       24d
+jx-staging                                    replicaset.apps/jx-arc-transformer-59f6cd696f                    0         0         0       4d14h
+jx-staging                                    replicaset.apps/jx-arc-transformer-645bbfb9c                     0         0         0       19d
+jx-staging                                    replicaset.apps/jx-arc-transformer-66fdc6856b                    1         1         1       4d9h
+jx-staging                                    replicaset.apps/jx-arc-transformer-69d74d479d                    0         0         0       24d
+jx-staging                                    replicaset.apps/jx-arc-transformer-6c87d589c9                    0         0         0       10d
+jx-staging                                    replicaset.apps/jx-arc-transformer-6c894d745c                    0         0         0       21d
+jx-staging                                    replicaset.apps/jx-arc-transformer-765657c556                    0         0         0       5d14h
+jx-staging                                    replicaset.apps/jx-arc-transformer-7865f8d9fc                    0         0         0       7d
+jx-staging                                    replicaset.apps/jx-arc-transformer-79864fb46                     0         0         0       6d14h
+jx-staging                                    replicaset.apps/jx-arc-transformer-94748b78c                     0         0         0       6d7h
+jx-staging                                    replicaset.apps/jx-arc-transformer-bf86456b4                     0         0         0       7d11h
+jx-staging                                    replicaset.apps/jx-arc-transformer-c45485d8b                     0         0         0       18d
+jx-staging                                    replicaset.apps/jx-jenkinsx-test3-65778877f9                     0         0         0       39d
+jx-staging                                    replicaset.apps/jx-jenkinsx-test3-7545549dd9                     0         0         0       32d
+jx-staging                                    replicaset.apps/jx-jenkinsx-test3-7d54485cb                      0         0         0       39d
+jx-staging                                    replicaset.apps/jx-jenkinsx-test3-ff8c44797                      1         1         1       32d
+jx-staging                                    replicaset.apps/jx-jxspringtest-7f5cf5587d                       1         1         1       42d
+jx-staging                                    replicaset.apps/jx-klarna-checkout-546df7dfcd                    0         0         0       18d
+jx-staging                                    replicaset.apps/jx-klarna-checkout-5d4fc696c4                    0         0         0       12d
+jx-staging                                    replicaset.apps/jx-klarna-checkout-5d78c67f5b                    0         0         0       12d
+jx-staging                                    replicaset.apps/jx-klarna-checkout-75f6f4896c                    0         0         0       14d
+jx-staging                                    replicaset.apps/jx-klarna-checkout-8678764d44                    1         1         1       4d6h
+jx-staging                                    replicaset.apps/jx-klarna-checkout-c9c7bd68f                     0         0         0       12d
+jx-staging                                    replicaset.apps/jx-klarna-checkout-f5c6968ff                     0         0         0       11d
+jx-staging                                    replicaset.apps/jx-node-http-test-789b8f59b9                     0         0         0       33d
+jx-staging                                    replicaset.apps/jx-node-http-test-78bc4cb48b                     1         1         1       33d
+jx-staging                                    replicaset.apps/jx-node-http-test-7c598f47fb                     0         0         0       33d
+jx-staging                                    replicaset.apps/jx-polopoly-extractor-5c67649bc4                 0         0         0       7d
+jx-staging                                    replicaset.apps/jx-polopoly-extractor-794cbfd7b7                 1         1         1       6d7h
+jx                                            replicaset.apps/crier-7dc76b7f7d                                 1         1         1       47d
+jx                                            replicaset.apps/deck-76d84c77d4                                  2         2         2       47d
+jx                                            replicaset.apps/dev-postgresql-79d866f9c4                        1         1         1       42d
+jx                                            replicaset.apps/dev-sonarqube-54fb476cdd                         1         1         1       42d
+jx                                            replicaset.apps/hook-7cc766d7fb                                  2         2         2       47d
+jx                                            replicaset.apps/horologium-857b46bdc                             1         1         1       47d
+jx                                            replicaset.apps/jenkins-x-chartmuseum-67f75c4884                 1         1         1       47d
+jx                                            replicaset.apps/jenkins-x-controllerbuild-58b996945f             0         0         0       46d
+jx                                            replicaset.apps/jenkins-x-controllerbuild-6f49c88bb5             0         0         0       40d
+jx                                            replicaset.apps/jenkins-x-controllerbuild-8499d4bcdb             0         0         0       32d
+jx                                            replicaset.apps/jenkins-x-controllerbuild-9b856b84b              1         1         1       18d
+jx                                            replicaset.apps/jenkins-x-controllerbuild-f4f45484b              0         0         0       47d
+jx                                            replicaset.apps/jenkins-x-controllerrole-66ff8f79c5              0         0         0       40d
+jx                                            replicaset.apps/jenkins-x-controllerrole-69dcbc4c46              1         1         1       18d
+jx                                            replicaset.apps/jenkins-x-controllerrole-7584f5974               0         0         0       32d
+jx                                            replicaset.apps/jenkins-x-controllerrole-77f6c649c7              0         0         0       46d
+jx                                            replicaset.apps/jenkins-x-controllerrole-cb84cb75d               0         0         0       47d
+jx                                            replicaset.apps/jenkins-x-controllerteam-54d8dd86b6              1         1         1       18d
+jx                                            replicaset.apps/jenkins-x-controllerteam-58d98fbf95              0         0         0       46d
+jx                                            replicaset.apps/jenkins-x-controllerteam-6d9bc6969d              0         0         0       32d
+jx                                            replicaset.apps/jenkins-x-controllerteam-6f7c96b9d6              0         0         0       47d
+jx                                            replicaset.apps/jenkins-x-controllerteam-8b9955bfc               0         0         0       40d
+jx                                            replicaset.apps/jenkins-x-heapster-66754b8fc5                    0         0         0       46d
+jx                                            replicaset.apps/jenkins-x-heapster-7489b8d655                    0         0         0       47d
+jx                                            replicaset.apps/jenkins-x-heapster-76f6fd9d47                    0         0         0       47d
+jx                                            replicaset.apps/jenkins-x-heapster-775b47d899                    1         1         1       45d
+jx                                            replicaset.apps/jenkins-x-nexus-57c8447c4                        1         1         1       47d
+jx                                            replicaset.apps/jx-jx-app-grafana-576d4d75d4                     1         1         1       47d
+jx                                            replicaset.apps/jx-jx-app-jacoco-jx-app-jacoco-86974cc4bc        1         1         1       31d
+jx                                            replicaset.apps/pipeline-69b849759d                              1         1         1       47d
+jx                                            replicaset.apps/pipelinerunner-67b88d6b46                        1         1         1       47d
+jx                                            replicaset.apps/plank-7cf44f95f7                                 1         1         1       47d
+jx                                            replicaset.apps/prometheus-alertmanager-58c6876d4c               1         1         1       43d
+jx                                            replicaset.apps/prometheus-kube-state-metrics-74b57df8bd         1         1         1       43d
+jx                                            replicaset.apps/prometheus-pushgateway-c497ff84d                 1         1         1       43d
+jx                                            replicaset.apps/prometheus-server-796c867465                     1         1         1       43d
+jx                                            replicaset.apps/sinker-5c565bcf76                                1         1         1       47d
+jx                                            replicaset.apps/tekton-pipelines-controller-65fff67458           1         1         1       47d
+jx                                            replicaset.apps/tekton-pipelines-webhook-76c6bd5b6               1         1         1       47d
+jx                                            replicaset.apps/tide-65475dd659                                  1         1         1       47d
+knative-serving                               replicaset.apps/activator-5847556cfb                             1         1         1       43d
+knative-serving                               replicaset.apps/autoscaler-7854868f86                            1         1         1       43d
+knative-serving                               replicaset.apps/autoscaler-hpa-cd5bb7c4c                         1         1         1       43d
+knative-serving                               replicaset.apps/controller-6999d8dc6c                            1         1         1       43d
+knative-serving                               replicaset.apps/webhook-6cdb44497f                               1         1         1       43d
+kube-system                                   replicaset.apps/coredns-7fb855c998                               2         2         2       47d
+kube-system                                   replicaset.apps/jxing-nginx-ingress-controller-5c99549f79        0         0         0       47d
+kube-system                                   replicaset.apps/jxing-nginx-ingress-controller-6d6d848fc6        3         3         3       14d
+kube-system                                   replicaset.apps/jxing-nginx-ingress-default-backend-67ff4dfb8b   0         0         0       47d
+kube-system                                   replicaset.apps/jxing-nginx-ingress-default-backend-7b77969c44   1         1         1       14d
+kubernetes-dashboard                          replicaset.apps/dashboard-metrics-scraper-5fbf548cfd             1         1         1       45d
+kubernetes-dashboard                          replicaset.apps/kubernetes-dashboard-64b494d477                  1         1         1       45d
+NAMESPACE         NAME                                            REFERENCE              TARGETS          MINPODS   MAXPODS   REPLICAS   AGE
+knative-serving   horizontalpodautoscaler.autoscaling/activator   Deployment/activator   <unknown>/100%   1         20        1          43d
+NAMESPACE        NAME                                          COMPLETIONS   DURATION   AGE
+jx-kube-hunter   job.batch/jx-kube-hunter-job                  0/1           32d        32d
+jx               job.batch/jenkins-x-gcactivities-1571671800   1/1           2s         4h9m
+jx               job.batch/jenkins-x-gcactivities-1571680800   1/1           3s         99m
+jx               job.batch/jenkins-x-gcactivities-1571682600   1/1           2s         69m
+jx               job.batch/jenkins-x-gcpods-1571671800         1/1           2s         4h9m
+jx               job.batch/jenkins-x-gcpods-1571680800         1/1           2s         99m
+jx               job.batch/jenkins-x-gcpods-1571682600         1/1           2s         69m
+jx               job.batch/jenkins-x-gcpreviews-1571281200     1/1           4s         4d16h
+jx               job.batch/jenkins-x-gcpreviews-1571292000     1/1           3s         4d13h
+jx               job.batch/jenkins-x-gcpreviews-1571302800     1/1           10s        4d10h
+jx               job.batch/jenkins-x-gcpreviews-1571680800     0/1           99m        99m
+NAMESPACE   NAME                                   SCHEDULE         SUSPEND   ACTIVE   LAST SCHEDULE   AGE
+jx          cronjob.batch/jenkins-x-gcactivities   0/30 */3 * * *   False     0        69m             47d
+jx          cronjob.batch/jenkins-x-gcpods         0/30 */3 * * *   False     0        69m             47d
+jx          cronjob.batch/jenkins-x-gcpreviews     0 */3 * * *      False     0        99m             47d
+NAMESPACE   NAME                                                                    AGE
+jx          pipelinestructure.jenkins.io/mentor-medier-ans-validator-mas-nkw86-9    18d
+jx          pipelinestructure.jenkins.io/mentor-medier-ans-validator-pr-9qdzj-5     18d
+jx          pipelinestructure.jenkins.io/mentor-medier-ans-validator-pr-dq2mc-1     18d
+jx          pipelinestructure.jenkins.io/mentor-medier-ans-validator-pr-kltfk-4     18d
+jx          pipelinestructure.jenkins.io/mentor-medier-ans-validator-pr-q9s2f-3     18d
+jx          pipelinestructure.jenkins.io/mentor-medier-ans-validator-pr-wbfl2-2     18d
+jx          pipelinestructure.jenkins.io/mentor-medier-arc-loader-master-1          40d
+jx          pipelinestructure.jenkins.io/mentor-medier-arc-loader-master-2dfgz-4    4d
+jx          pipelinestructure.jenkins.io/mentor-medier-arc-loader-pr-2-s-25vf5-9    39d
+jx          pipelinestructure.jenkins.io/mentor-medier-arc-loader-pr-2-s-9zjxz-6    39d
+jx          pipelinestructure.jenkins.io/mentor-medier-arc-loader-pr-2-s-knkzx-8    39d
+jx          pipelinestructure.jenkins.io/mentor-medier-arc-transformer-m-1          24d
+jx          pipelinestructure.jenkins.io/mentor-medier-arc-transformer-m-5qtbb-18   5d
+jx          pipelinestructure.jenkins.io/mentor-medier-arc-transformer-m-7brlm-21   6h
+jx          pipelinestructure.jenkins.io/mentor-medier-arc-transformer-m-8dx7w-11   19d
+jx          pipelinestructure.jenkins.io/mentor-medier-arc-transformer-m-l7bdw-20   4d
+jx          pipelinestructure.jenkins.io/mentor-medier-arc-transformer-m-mlg8g-17   6d
+jx          pipelinestructure.jenkins.io/mentor-medier-arc-transformer-m-qpx8h-19   4d
+jx          pipelinestructure.jenkins.io/mentor-medier-arc-transformer-m-rccjs-3    24d
+jx          pipelinestructure.jenkins.io/mentor-medier-arc-transformer-p-8g2nq-2    7h
+jx          pipelinestructure.jenkins.io/mentor-medier-arc-transformer-p-8zxb4-1    18d
+jx          pipelinestructure.jenkins.io/mentor-medier-arc-transformer-p-lp8ts-1    19d
+jx          pipelinestructure.jenkins.io/mentor-medier-arc-transformer-p-m7rmn-1    7h
+jx          pipelinestructure.jenkins.io/mentor-medier-aws-s3-service-ma-6qcnf-22   11d
+jx          pipelinestructure.jenkins.io/mentor-medier-aws-s3-service-ma-fhw4s-26   6d
+jx          pipelinestructure.jenkins.io/mentor-medier-aws-s3-service-ma-l2xm2-24   7d
+jx          pipelinestructure.jenkins.io/mentor-medier-aws-s3-service-ma-lsjcr-25   7d
+jx          pipelinestructure.jenkins.io/mentor-medier-aws-s3-service-ma-qm7zn-16   20d
+jx          pipelinestructure.jenkins.io/mentor-medier-aws-s3-service-ma-wxmmv-23   10d
+jx          pipelinestructure.jenkins.io/mentor-medier-environment-mento-46szk-1    42d
+jx          pipelinestructure.jenkins.io/mentor-medier-environment-mento-4jw9j-46   4d
+jx          pipelinestructure.jenkins.io/mentor-medier-environment-mento-4xdrw-47   4d
+jx          pipelinestructure.jenkins.io/mentor-medier-environment-mento-54866-45   4d
+jx          pipelinestructure.jenkins.io/mentor-medier-environment-mento-669qz-5    42d
+jx          pipelinestructure.jenkins.io/mentor-medier-environment-mento-7g47c-1    18d
+jx          pipelinestructure.jenkins.io/mentor-medier-environment-mento-9dbt5-1    41d
+jx          pipelinestructure.jenkins.io/mentor-medier-environment-mento-bdnst-7    42d
+jx          pipelinestructure.jenkins.io/mentor-medier-environment-mento-bf8wp-1    19d
+jx          pipelinestructure.jenkins.io/mentor-medier-environment-mento-c6nl8-1    4d
+jx          pipelinestructure.jenkins.io/mentor-medier-environment-mento-d795r-27   19d
+jx          pipelinestructure.jenkins.io/mentor-medier-environment-mento-fncq2-6    42d
+jx          pipelinestructure.jenkins.io/mentor-medier-environment-mento-k7nzt-26   20d
+jx          pipelinestructure.jenkins.io/mentor-medier-environment-mento-l2wx8-28   18d
+jx          pipelinestructure.jenkins.io/mentor-medier-environment-mento-lj5j5-8    41d
+jx          pipelinestructure.jenkins.io/mentor-medier-environment-mento-vfxkb-44   5d
+jx          pipelinestructure.jenkins.io/mentor-medier-environment-mento-x2qx5-48   4d
+jx          pipelinestructure.jenkins.io/mentor-medier-environment-mento-xx8nj-1    42d
+jx          pipelinestructure.jenkins.io/mentor-medier-environment-mento-z2qjp-1    42d
+jx          pipelinestructure.jenkins.io/mentor-medier-etl-model-master-1           26d
+jx          pipelinestructure.jenkins.io/mentor-medier-etl-model-master-5pgsc-8     12d
+jx          pipelinestructure.jenkins.io/mentor-medier-etl-model-master-9w6hp-3     20d
+jx          pipelinestructure.jenkins.io/mentor-medier-etl-model-master-c6j4r-11    7h
+jx          pipelinestructure.jenkins.io/mentor-medier-etl-model-master-ftcsw-9     12d
+jx          pipelinestructure.jenkins.io/mentor-medier-etl-model-master-pslxz-7     12d
+jx          pipelinestructure.jenkins.io/mentor-medier-etl-model-master-vb7rz-10    12d
+jx          pipelinestructure.jenkins.io/mentor-medier-etl-model-pr-3-se-1          7h
+jx          pipelinestructure.jenkins.io/mentor-medier-etl-model-pr-3-se-kmt5n-2    7h
+jx          pipelinestructure.jenkins.io/mentor-medier-jxspringtest-mast-1          42d
+jx          pipelinestructure.jenkins.io/mentor-medier-jxspringtest-mast-6rffj-2    42d
+jx          pipelinestructure.jenkins.io/mentor-medier-jxspringtest-pr-1-1          42d
+jx          pipelinestructure.jenkins.io/mentor-medier-jxspringtest-pr-1-4dlcp-6    42d
+jx          pipelinestructure.jenkins.io/mentor-medier-jxspringtest-pr-1-5t777-2    42d
+jx          pipelinestructure.jenkins.io/mentor-medier-jxspringtest-pr-1-7vfl9-4    42d
+jx          pipelinestructure.jenkins.io/mentor-medier-jxspringtest-pr-1-92ssk-3    42d
+jx          pipelinestructure.jenkins.io/mentor-medier-jxspringtest-pr-1-rn4nz-5    42d
+jx          pipelinestructure.jenkins.io/mentor-medier-jxtest-master-1              42d
+jx          pipelinestructure.jenkins.io/mentor-medier-kafka-utils-maste-1          26d
+jx          pipelinestructure.jenkins.io/mentor-medier-klarna-checkout-m-1          18d
+jx          pipelinestructure.jenkins.io/mentor-medier-klarna-checkout-m-6k5js-8    11d
+jx          pipelinestructure.jenkins.io/mentor-medier-klarna-checkout-m-kx8c8-10   4d
+jx          pipelinestructure.jenkins.io/mentor-medier-klarna-checkout-m-qpql6-9    4d
+jx          pipelinestructure.jenkins.io/mentor-medier-klarna-checkout-m-zgpbj-7    12d
+jx          pipelinestructure.jenkins.io/mentor-medier-klarna-checkout-m-zsgwv-6    12d
+jx          pipelinestructure.jenkins.io/mentor-medier-node-http-test-pr-jq7tk-2    33d
+jx          pipelinestructure.jenkins.io/mentor-medier-polopoly-extracto-6vg2p-3    6d
+jx          pipelinestructure.jenkins.io/mentor-medier-polopoly-extracto-tq8fz-1    7d
+jx          pipelinestructure.jenkins.io/mentor-medier-polopoly-extracto-wkp6r-2    7d
+jx          pipelinestructure.jenkins.io/mentor-medier-quickstart-1-mast-1          4d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-ans-validato-2xpdg-5    18d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-ans-validato-5dfhz-2    18d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-ans-validato-8r6zc-1    18d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-ans-validato-grp26-3    18d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-ans-validato-mbbf6-4    18d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-ans-validato-tppfx-9    18d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-arc-loader-m-1          40d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-arc-loader-m-hd68q-4    4d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-arc-loader-p-2ldpt-6    39d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-arc-loader-p-9qqr2-8    39d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-arc-loader-p-z8d4v-9    39d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-arc-transfor-1          24d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-arc-transfor-4knbv-18   5d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-arc-transfor-58b7g-21   6h
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-arc-transfor-c2ckn-1    7h
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-arc-transfor-cqb2m-1    18d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-arc-transfor-dqd5l-2    7h
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-arc-transfor-gfcrn-3    24d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-arc-transfor-gkq8v-19   4d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-arc-transfor-jzf9z-11   19d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-arc-transfor-npphf-1    19d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-arc-transfor-ql9mf-20   4d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-arc-transfor-vvgcc-17   6d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-aws-s3-servi-6msnv-26   6d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-aws-s3-servi-6z89w-24   7d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-aws-s3-servi-77kkg-23   10d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-aws-s3-servi-dhxwh-25   7d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-aws-s3-servi-r4wqb-22   11d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-aws-s3-servi-v65ht-16   20d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-environment-55rbk-1     41d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-environment-6vrl2-1     21d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-environment-6zv86-5     42d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-environment-748gv-1     42d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-environment-7zjp4-45    4d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-environment-8t4hn-28    18d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-environment-9rmdm-44    5d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-environment-9zsjn-42    6d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-environment-f4zkp-6     42d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-environment-gbs8s-1     19d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-environment-gkg56-26    20d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-environment-glv22-1     42d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-environment-gwz2f-27    19d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-environment-hpbct-47    4d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-environment-ljvwd-1     4d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-environment-sz629-1     42d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-environment-th66b-1     18d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-environment-vbchb-8     41d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-environment-xlnmd-48    4d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-environment-xr792-46    4d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-environment-zhdxx-7     42d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-etl-model-ma-1          26d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-etl-model-ma-69j44-10   12d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-etl-model-ma-dwnfb-8    12d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-etl-model-ma-g7pdd-3    20d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-etl-model-ma-j86nt-9    12d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-etl-model-ma-rf6dz-11   7h
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-etl-model-ma-scpcv-7    12d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-etl-model-pr-krx5v-2    7h
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-etl-model-pr-xtw4m-1    7h
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-jxspringtest-1          42d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-jxspringtest-7hfsx-2    42d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-jxspringtest-cjwff-5    42d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-jxspringtest-fqv25-1    42d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-jxspringtest-kwv58-2    42d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-jxspringtest-mp928-4    42d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-jxspringtest-nwg42-3    42d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-jxspringtest-xgnhj-6    42d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-jxtest-maste-1          42d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-k8s-test-mas-1          42d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-k8s-test-mas-5tbkn-2    42d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-k8s-test-mas-xxtwn-3    42d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-kafka-utils-1           26d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-klarna-check-1          18d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-klarna-check-5fr6n-9    4d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-klarna-check-fz9f5-8    11d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-klarna-check-hq2xl-10   4d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-klarna-check-kkrns-7    12d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-klarna-check-p672w-6    12d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-node-http-te-mnmq4-2    33d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-polopoly-ext-lcrr2-4    6d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-polopoly-ext-r7g6b-1    7d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-polopoly-ext-r7skw-3    6d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-polopoly-ext-sczpd-2    7d
+jx          pipelinestructure.jenkins.io/meta-mentor-medier-quickstart-1-1          4d
+NAMESPACE       NAME                                             NAME                    VERSION   GIT URL
+jx-production   release.jenkins.io/jenkinsx-test3-0.2.2          jenkinsx-test3          v0.2.2    https://github.com/Mentor-Medier/jenkinsx-test3
+jx-staging      release.jenkins.io/ans-validator-0.0.9           ans-validator           v0.0.9    https://github.com/Mentor-Medier/ans-validator
+jx-staging      release.jenkins.io/arc-loader-1.0.2              arc-loader              v1.0.2    https://github.com/Mentor-Medier/arc-loader
+jx-staging      release.jenkins.io/arc-transformer-1.0.19        arc-transformer         v1.0.19   https://github.com/Mentor-Medier/arc-transformer
+jx-staging      release.jenkins.io/jenkinsx-test3-0.2.2          jenkinsx-test3          v0.2.2    https://github.com/Mentor-Medier/jenkinsx-test3
+jx-staging      release.jenkins.io/jxspringtest-0.0.2            jxspringtest            v0.0.2    https://github.com/Mentor-Medier/jxspringtest
+jx-staging      release.jenkins.io/klarna-checkout-0.0.9         klarna-checkout         v0.0.9    https://github.com/Mentor-Medier/klarna-checkout
+jx-staging      release.jenkins.io/node-http-test-0.0.3          node-http-test          v0.0.3    https://github.com/Mentor-Medier/node-http-test
+jx-staging      release.jenkins.io/polopoly-extractor-1.0.6      polopoly-extractor      v1.0.6    https://github.com/Mentor-Medier/polopoly-extractor
+jx              release.jenkins.io/ans-validator-0-0-5           ans-validator           0.0.5     https://github.com/Mentor-Medier/ans-validator
+jx              release.jenkins.io/ans-validator-0-0-6           ans-validator           0.0.6     https://github.com/Mentor-Medier/ans-validator
+jx              release.jenkins.io/ans-validator-0-0-7           ans-validator           0.0.7     https://github.com/Mentor-Medier/ans-validator
+jx              release.jenkins.io/ans-validator-0-0-8           ans-validator           0.0.8     https://github.com/Mentor-Medier/ans-validator
+jx              release.jenkins.io/ans-validator-0-0-9           ans-validator           0.0.9     https://github.com/Mentor-Medier/ans-validator
+jx              release.jenkins.io/arc-loader-1-0-2              arc-loader              1.0.2     https://github.com/Mentor-Medier/arc-loader
+jx              release.jenkins.io/arc-loader-1-0-3              arc-loader              1.0.3     https://github.com/Mentor-Medier/arc-loader
+jx              release.jenkins.io/arc-transformer-1-0-10        arc-transformer         1.0.10    https://github.com/Mentor-Medier/arc-transformer
+jx              release.jenkins.io/arc-transformer-1-0-11        arc-transformer         1.0.11    https://github.com/Mentor-Medier/arc-transformer
+jx              release.jenkins.io/arc-transformer-1-0-12        arc-transformer         1.0.12    https://github.com/Mentor-Medier/arc-transformer
+jx              release.jenkins.io/arc-transformer-1-0-13        arc-transformer         1.0.13    https://github.com/Mentor-Medier/arc-transformer
+jx              release.jenkins.io/arc-transformer-1-0-14        arc-transformer         1.0.14    https://github.com/Mentor-Medier/arc-transformer
+jx              release.jenkins.io/arc-transformer-1-0-15        arc-transformer         1.0.15    https://github.com/Mentor-Medier/arc-transformer
+jx              release.jenkins.io/arc-transformer-1-0-16        arc-transformer         1.0.16    https://github.com/Mentor-Medier/arc-transformer
+jx              release.jenkins.io/arc-transformer-1-0-17        arc-transformer         1.0.17    https://github.com/Mentor-Medier/arc-transformer
+jx              release.jenkins.io/arc-transformer-1-0-18        arc-transformer         1.0.18    https://github.com/Mentor-Medier/arc-transformer
+jx              release.jenkins.io/arc-transformer-1-0-19        arc-transformer         1.0.19    https://github.com/Mentor-Medier/arc-transformer
+jx              release.jenkins.io/arc-transformer-1-0-7         arc-transformer         1.0.7     https://github.com/Mentor-Medier/arc-transformer
+jx              release.jenkins.io/arc-transformer-1-0-8         arc-transformer         1.0.8     https://github.com/Mentor-Medier/arc-transformer
+jx              release.jenkins.io/arc-transformer-1-0-9         arc-transformer         1.0.9     https://github.com/Mentor-Medier/arc-transformer
+jx              release.jenkins.io/etlutils-0-0-2                etlutils                0.0.2     https://github.com/Mentor-Medier/etlutils
+jx              release.jenkins.io/java11test2-0-0-4             java11test2             0.0.4     https://github.com/Mentor-Medier/java11test2
+jx              release.jenkins.io/jenkinsx-test3-0-0-2          jenkinsx-test3          0.0.2     https://github.com/Mentor-Medier/jenkinsx-test3
+jx              release.jenkins.io/jenkinsx-test3-0-0-3          jenkinsx-test3          0.0.3     https://github.com/Mentor-Medier/jenkinsx-test3
+jx              release.jenkins.io/jenkinsx-test3-0-2-2          jenkinsx-test3          0.2.2     https://github.com/Mentor-Medier/jenkinsx-test3
+jx              release.jenkins.io/jxspringtest-0-0-2            jxspringtest            0.0.2     https://github.com/Mentor-Medier/jxspringtest
+jx              release.jenkins.io/k8s-dev-0-0-5                 k8s-dev                 0.0.5     https://github.com/Mentor-Medier/k8s-dev
+jx              release.jenkins.io/k8s-dev-0-0-6                 k8s-dev                 0.0.6     https://github.com/Mentor-Medier/k8s-dev
+jx              release.jenkins.io/k8stest-1-0-1                 k8stest                 1.0.1     https://github.com/Mentor-Medier/k8stest
+jx              release.jenkins.io/klarna-checkout-0-0-10        klarna-checkout         0.0.10    https://github.com/Mentor-Medier/klarna-checkout
+jx              release.jenkins.io/klarna-checkout-0-0-3         klarna-checkout         0.0.3     https://github.com/Mentor-Medier/klarna-checkout
+jx              release.jenkins.io/klarna-checkout-0-0-4         klarna-checkout         0.0.4     https://github.com/Mentor-Medier/klarna-checkout
+jx              release.jenkins.io/klarna-checkout-0-0-5         klarna-checkout         0.0.5     https://github.com/Mentor-Medier/klarna-checkout
+jx              release.jenkins.io/klarna-checkout-0-0-6         klarna-checkout         0.0.6     https://github.com/Mentor-Medier/klarna-checkout
+jx              release.jenkins.io/klarna-checkout-0-0-7         klarna-checkout         0.0.7     https://github.com/Mentor-Medier/klarna-checkout
+jx              release.jenkins.io/klarna-checkout-0-0-8         klarna-checkout         0.0.8     https://github.com/Mentor-Medier/klarna-checkout
+jx              release.jenkins.io/klarna-checkout-0-0-9         klarna-checkout         0.0.9     https://github.com/Mentor-Medier/klarna-checkout
+jx              release.jenkins.io/node-http-test-0-0-2          node-http-test          0.0.2     https://github.com/Mentor-Medier/node-http-test
+jx              release.jenkins.io/node-http-test-0-0-3          node-http-test          0.0.3     https://github.com/Mentor-Medier/node-http-test
+jx              release.jenkins.io/polopoly-extractor-1-0-5      polopoly-extractor      1.0.5     https://github.com/Mentor-Medier/polopoly-extractor
+jx              release.jenkins.io/polopoly-extractor-1-0-6      polopoly-extractor      1.0.6     https://github.com/Mentor-Medier/polopoly-extractor
+jx              release.jenkins.io/spring-boot-rest-test-0-0-2   spring-boot-rest-test   0.0.2     https://github.com/Mentor-Medier/spring-boot-rest-test
+NAMESPACE   NAME                                                                             URL   DESCRIPTION
+jx          sourcerepository.jenkins.io/mentor-medier-ans-validator                                Imported application for Mentor-Medier/ans-validator
+jx          sourcerepository.jenkins.io/mentor-medier-arc-loader                                   Imported application for Mentor-Medier/arc-loader
+jx          sourcerepository.jenkins.io/mentor-medier-arc-transformer                              Imported application for Mentor-Medier/arc-transformer
+jx          sourcerepository.jenkins.io/mentor-medier-aws-s3-service                               Imported application for Mentor-Medier/aws-s3-service
+jx          sourcerepository.jenkins.io/mentor-medier-environment-mentordigital-production         Imported application for Mentor-Medier/environment-mentordigital-production
+jx          sourcerepository.jenkins.io/mentor-medier-environment-mentordigital-staging            Imported application for Mentor-Medier/environment-mentordigital-staging
+jx          sourcerepository.jenkins.io/mentor-medier-etl-model                                    Imported application for Mentor-Medier/etl-model
+jx          sourcerepository.jenkins.io/mentor-medier-etlmodel                                     Imported application for mentor-medier/etlmodel
+jx          sourcerepository.jenkins.io/mentor-medier-java11test                                   Imported application for Mentor-Medier/java11test
+jx          sourcerepository.jenkins.io/mentor-medier-jenkinsx-test3                               Imported application for Mentor-Medier/jenkinsx-test3
+jx          sourcerepository.jenkins.io/mentor-medier-jxspringtest                                 Imported application for Mentor-Medier/jxspringtest
+jx          sourcerepository.jenkins.io/mentor-medier-jxtest                                       Imported application for Mentor-Medier/jxtest
+jx          sourcerepository.jenkins.io/mentor-medier-k8s-test                                     Imported application for Mentor-Medier/k8s-test
+jx          sourcerepository.jenkins.io/mentor-medier-kafka-demo                                   Imported application for Mentor-Medier/kafka-demo
+jx          sourcerepository.jenkins.io/mentor-medier-kafka-utils                                  Imported application for Mentor-Medier/kafka-utils
+jx          sourcerepository.jenkins.io/mentor-medier-klarna-checkout                              Imported application for Mentor-Medier/klarna-checkout
+jx          sourcerepository.jenkins.io/mentor-medier-node-http-test                               Imported application for Mentor-Medier/node-http-test
+jx          sourcerepository.jenkins.io/mentor-medier-polopoly-extractor                           Imported application for Mentor-Medier/polopoly-extractor
+jx          sourcerepository.jenkins.io/mentor-medier-quickstart-1                                 Imported application for Mentor-Medier/quickstart-1
+jx          sourcerepository.jenkins.io/mentor-medier-spring-boot-pipeline                         Imported application for Mentor-Medier/spring-boot-pipeline
+jx          sourcerepository.jenkins.io/mentor-medier-test-project                                 Imported application for mentor-medier/test-project
+NAMESPACE   NAME                                                                                    GIT URL                                                                  STATUS
+jx          pipelineactivity.jenkins.io/mentor-medier-ans-validator-master-9                        https://github.com/Mentor-Medier/ans-validator.git                       Running
+jx          pipelineactivity.jenkins.io/mentor-medier-ans-validator-pr-4-1                          https://github.com/Mentor-Medier/ans-validator.git                       
+jx          pipelineactivity.jenkins.io/mentor-medier-ans-validator-pr-4-2                          https://github.com/Mentor-Medier/ans-validator.git                       
+jx          pipelineactivity.jenkins.io/mentor-medier-ans-validator-pr-4-3                          https://github.com/Mentor-Medier/ans-validator.git                       
+jx          pipelineactivity.jenkins.io/mentor-medier-ans-validator-pr-4-4                          https://github.com/Mentor-Medier/ans-validator.git                       
+jx          pipelineactivity.jenkins.io/mentor-medier-ans-validator-pr-4-5                          https://github.com/Mentor-Medier/ans-validator.git                       
+jx          pipelineactivity.jenkins.io/mentor-medier-arc-loader-master-1                           https://github.com/Mentor-Medier/arc-loader.git                          
+jx          pipelineactivity.jenkins.io/mentor-medier-arc-loader-master-4                           https://github.com/Mentor-Medier/arc-loader.git                          Failed
+jx          pipelineactivity.jenkins.io/mentor-medier-arc-loader-pr-2-6                             https://github.com/Mentor-Medier/arc-loader.git                          Running
+jx          pipelineactivity.jenkins.io/mentor-medier-arc-loader-pr-2-8                             https://github.com/Mentor-Medier/arc-loader.git                          Running
+jx          pipelineactivity.jenkins.io/mentor-medier-arc-loader-pr-2-9                             https://github.com/Mentor-Medier/arc-loader.git                          Running
+jx          pipelineactivity.jenkins.io/mentor-medier-arc-transformer-master-1                      https://github.com/Mentor-Medier/arc-transformer.git                     Failed
+jx          pipelineactivity.jenkins.io/mentor-medier-arc-transformer-master-11                     https://github.com/Mentor-Medier/arc-transformer.git                     Running
+jx          pipelineactivity.jenkins.io/mentor-medier-arc-transformer-master-17                     https://github.com/Mentor-Medier/arc-transformer.git                     Succeeded
+jx          pipelineactivity.jenkins.io/mentor-medier-arc-transformer-master-18                     https://github.com/Mentor-Medier/arc-transformer.git                     Succeeded
+jx          pipelineactivity.jenkins.io/mentor-medier-arc-transformer-master-19                     https://github.com/Mentor-Medier/arc-transformer.git                     Succeeded
+jx          pipelineactivity.jenkins.io/mentor-medier-arc-transformer-master-20                     https://github.com/Mentor-Medier/arc-transformer.git                     Succeeded
+jx          pipelineactivity.jenkins.io/mentor-medier-arc-transformer-master-21                     https://github.com/Mentor-Medier/arc-transformer.git                     Failed
+jx          pipelineactivity.jenkins.io/mentor-medier-arc-transformer-master-3                      https://github.com/Mentor-Medier/arc-transformer.git                     Failed
+jx          pipelineactivity.jenkins.io/mentor-medier-arc-transformer-pr-12-1                       https://github.com/Mentor-Medier/arc-transformer.git                     Succeeded
+jx          pipelineactivity.jenkins.io/mentor-medier-arc-transformer-pr-12-2                       https://github.com/Mentor-Medier/arc-transformer.git                     Succeeded
+jx          pipelineactivity.jenkins.io/mentor-medier-arc-transformer-pr-4-1                        https://github.com/Mentor-Medier/arc-transformer.git                     
+jx          pipelineactivity.jenkins.io/mentor-medier-arc-transformer-pr-5-1                        https://github.com/Mentor-Medier/arc-transformer.git                     
+jx          pipelineactivity.jenkins.io/mentor-medier-aws-s3-service-master-16                      https://github.com/Mentor-Medier/aws-s3-service.git                      
+jx          pipelineactivity.jenkins.io/mentor-medier-aws-s3-service-master-22                      https://github.com/Mentor-Medier/aws-s3-service.git                      Succeeded
+jx          pipelineactivity.jenkins.io/mentor-medier-aws-s3-service-master-23                      https://github.com/Mentor-Medier/aws-s3-service.git                      Succeeded
+jx          pipelineactivity.jenkins.io/mentor-medier-aws-s3-service-master-24                      https://github.com/Mentor-Medier/aws-s3-service.git                      Succeeded
+jx          pipelineactivity.jenkins.io/mentor-medier-aws-s3-service-master-25                      https://github.com/Mentor-Medier/aws-s3-service.git                      Succeeded
+jx          pipelineactivity.jenkins.io/mentor-medier-aws-s3-service-master-26                      https://github.com/Mentor-Medier/aws-s3-service.git                      Succeeded
+jx          pipelineactivity.jenkins.io/mentor-medier-environment-mentordigital-staging-master-26   https://github.com/Mentor-Medier/environment-mentordigital-staging.git   Running
+jx          pipelineactivity.jenkins.io/mentor-medier-environment-mentordigital-staging-master-27   https://github.com/Mentor-Medier/environment-mentordigital-staging.git   
+jx          pipelineactivity.jenkins.io/mentor-medier-environment-mentordigital-staging-master-28   https://github.com/Mentor-Medier/environment-mentordigital-staging.git   
+jx          pipelineactivity.jenkins.io/mentor-medier-environment-mentordigital-staging-master-42   https://github.com/Mentor-Medier/environment-mentordigital-staging.git   
+jx          pipelineactivity.jenkins.io/mentor-medier-environment-mentordigital-staging-master-44   https://github.com/Mentor-Medier/environment-mentordigital-staging.git   Succeeded
+jx          pipelineactivity.jenkins.io/mentor-medier-environment-mentordigital-staging-master-45   https://github.com/Mentor-Medier/environment-mentordigital-staging.git   Succeeded
+jx          pipelineactivity.jenkins.io/mentor-medier-environment-mentordigital-staging-master-46   https://github.com/Mentor-Medier/environment-mentordigital-staging.git   Succeeded
+jx          pipelineactivity.jenkins.io/mentor-medier-environment-mentordigital-staging-master-47   https://github.com/Mentor-Medier/environment-mentordigital-staging.git   Succeeded
+jx          pipelineactivity.jenkins.io/mentor-medier-environment-mentordigital-staging-master-48   https://github.com/Mentor-Medier/environment-mentordigital-staging.git   Failed
+jx          pipelineactivity.jenkins.io/mentor-medier-environment-mentordigital-staging-master-5    https://github.com/Mentor-Medier/environment-mentordigital-staging.git   
+jx          pipelineactivity.jenkins.io/mentor-medier-environment-mentordigital-staging-master-6    https://github.com/Mentor-Medier/environment-mentordigital-staging.git   
+jx          pipelineactivity.jenkins.io/mentor-medier-environment-mentordigital-staging-master-7    https://github.com/Mentor-Medier/environment-mentordigital-staging.git   
+jx          pipelineactivity.jenkins.io/mentor-medier-environment-mentordigital-staging-master-8    https://github.com/Mentor-Medier/environment-mentordigital-staging.git   
+jx          pipelineactivity.jenkins.io/mentor-medier-environment-mentordigital-staging-pr-28-1     https://github.com/Mentor-Medier/environment-mentordigital-staging.git   Running
+jx          pipelineactivity.jenkins.io/mentor-medier-environment-mentordigital-staging-pr-30-1     https://github.com/Mentor-Medier/environment-mentordigital-staging.git   
+jx          pipelineactivity.jenkins.io/mentor-medier-environment-mentordigital-staging-pr-31-1     https://github.com/Mentor-Medier/environment-mentordigital-staging.git   
+jx          pipelineactivity.jenkins.io/mentor-medier-environment-mentordigital-staging-pr-49-1     https://github.com/Mentor-Medier/environment-mentordigital-staging.git   Running
+jx          pipelineactivity.jenkins.io/mentor-medier-environment-mentordigital-staging-pr-5-1      https://github.com/Mentor-Medier/environment-mentordigital-staging.git   
+jx          pipelineactivity.jenkins.io/mentor-medier-environment-mentordigital-staging-pr-6-1      https://github.com/Mentor-Medier/environment-mentordigital-staging.git   
+jx          pipelineactivity.jenkins.io/mentor-medier-environment-mentordigital-staging-pr-7-1      https://github.com/Mentor-Medier/environment-mentordigital-staging.git   
+jx          pipelineactivity.jenkins.io/mentor-medier-environment-mentordigital-staging-pr-8-1      https://github.com/Mentor-Medier/environment-mentordigital-staging.git   
+jx          pipelineactivity.jenkins.io/mentor-medier-etl-model-master-1                            https://github.com/Mentor-Medier/etl-model.git                           Failed
+jx          pipelineactivity.jenkins.io/mentor-medier-etl-model-master-10                           https://github.com/Mentor-Medier/etl-model.git                           Succeeded
+jx          pipelineactivity.jenkins.io/mentor-medier-etl-model-master-11                           https://github.com/Mentor-Medier/etl-model.git                           Succeeded
+jx          pipelineactivity.jenkins.io/mentor-medier-etl-model-master-3                            https://github.com/Mentor-Medier/etl-model.git                           
+jx          pipelineactivity.jenkins.io/mentor-medier-etl-model-master-7                            https://github.com/Mentor-Medier/etl-model.git                           Failed
+jx          pipelineactivity.jenkins.io/mentor-medier-etl-model-master-8                            https://github.com/Mentor-Medier/etl-model.git                           Succeeded
+jx          pipelineactivity.jenkins.io/mentor-medier-etl-model-master-9                            https://github.com/Mentor-Medier/etl-model.git                           Succeeded
+jx          pipelineactivity.jenkins.io/mentor-medier-etl-model-pr-3-1                              https://github.com/Mentor-Medier/etl-model.git                           Failed
+jx          pipelineactivity.jenkins.io/mentor-medier-etl-model-pr-3-2                              https://github.com/Mentor-Medier/etl-model.git                           Succeeded
+jx          pipelineactivity.jenkins.io/mentor-medier-jxspringtest-master-1                         https://github.com/Mentor-Medier/jxspringtest.git                        Running
+jx          pipelineactivity.jenkins.io/mentor-medier-jxspringtest-master-2                         https://github.com/Mentor-Medier/jxspringtest.git                        Running
+jx          pipelineactivity.jenkins.io/mentor-medier-jxspringtest-pr-1-1                           https://github.com/Mentor-Medier/jxspringtest.git                        
+jx          pipelineactivity.jenkins.io/mentor-medier-jxspringtest-pr-1-2                           https://github.com/Mentor-Medier/jxspringtest.git                        
+jx          pipelineactivity.jenkins.io/mentor-medier-jxspringtest-pr-1-3                           https://github.com/Mentor-Medier/jxspringtest.git                        
+jx          pipelineactivity.jenkins.io/mentor-medier-jxspringtest-pr-1-4                           https://github.com/Mentor-Medier/jxspringtest.git                        
+jx          pipelineactivity.jenkins.io/mentor-medier-jxspringtest-pr-1-5                           https://github.com/Mentor-Medier/jxspringtest.git                        
+jx          pipelineactivity.jenkins.io/mentor-medier-jxspringtest-pr-1-6                           https://github.com/Mentor-Medier/jxspringtest.git                        
+jx          pipelineactivity.jenkins.io/mentor-medier-jxtest-master-1                               https://github.com/Mentor-Medier/jxtest.git                              
+jx          pipelineactivity.jenkins.io/mentor-medier-k8s-test-master-1                             https://github.com/Mentor-Medier/k8s-test.git                            
+jx          pipelineactivity.jenkins.io/mentor-medier-k8s-test-master-2                             https://github.com/Mentor-Medier/k8s-test.git                            
+jx          pipelineactivity.jenkins.io/mentor-medier-k8s-test-master-3                             https://github.com/Mentor-Medier/k8s-test.git                            
+jx          pipelineactivity.jenkins.io/mentor-medier-kafka-utils-master-1                          https://github.com/Mentor-Medier/kafka-utils.git                         Failed
+jx          pipelineactivity.jenkins.io/mentor-medier-klarna-checkout-master-1                      https://github.com/Mentor-Medier/klarna-checkout.git                     Failed
+jx          pipelineactivity.jenkins.io/mentor-medier-klarna-checkout-master-10                     https://github.com/Mentor-Medier/klarna-checkout.git                     Failed
+jx          pipelineactivity.jenkins.io/mentor-medier-klarna-checkout-master-6                      https://github.com/Mentor-Medier/klarna-checkout.git                     Succeeded
+jx          pipelineactivity.jenkins.io/mentor-medier-klarna-checkout-master-7                      https://github.com/Mentor-Medier/klarna-checkout.git                     Succeeded
+jx          pipelineactivity.jenkins.io/mentor-medier-klarna-checkout-master-8                      https://github.com/Mentor-Medier/klarna-checkout.git                     Succeeded
+jx          pipelineactivity.jenkins.io/mentor-medier-klarna-checkout-master-9                      https://github.com/Mentor-Medier/klarna-checkout.git                     Succeeded
+jx          pipelineactivity.jenkins.io/mentor-medier-node-http-test-pr-1-2                         https://github.com/Mentor-Medier/node-http-test.git                      Running
+jx          pipelineactivity.jenkins.io/mentor-medier-polopoly-extractor-master-1                   https://github.com/Mentor-Medier/polopoly-extractor.git                  Failed
+jx          pipelineactivity.jenkins.io/mentor-medier-polopoly-extractor-master-2                   https://github.com/Mentor-Medier/polopoly-extractor.git                  Succeeded
+jx          pipelineactivity.jenkins.io/mentor-medier-polopoly-extractor-master-3                   https://github.com/Mentor-Medier/polopoly-extractor.git                  Succeeded
+jx          pipelineactivity.jenkins.io/mentor-medier-polopoly-extractor-master-4                   https://github.com/Mentor-Medier/polopoly-extractor.git                  Failed
+jx          pipelineactivity.jenkins.io/mentor-medier-quickstart-1-master-1                         https://github.com/Mentor-Medier/quickstart-1.git                        Failed
+NAMESPACE   NAME                                              AGE
+jx          app.jenkins.io/jx-jx-app-grafana-jx-app-grafana   47d
+jx          app.jenkins.io/jx-jx-app-jacoco-jx-app-jacoco     31d
+NAMESPACE   NAME                               NAME                EMAIL
+jx          user.jenkins.io/babadofar          Christoffer Vig     christoffer.vig@gmail.com
+jx          user.jenkins.io/cefalo-beroza      Beroza Paul         beroza@cefalo.com
+jx          user.jenkins.io/mentor-jenkins                         
+jx          user.jenkins.io/sajol              Sazal Kanti Kundu   sajolkk@gmail.com
+jx          user.jenkins.io/sultanmahmud0      Sultan Mahmud       sultan@cefalo.com
+jx          user.jenkins.io/x-0                babadofar           christoffer.vig@gmail.com
+jx          user.jenkins.io/zakirhossain-dsi                       zakir@cefalo.com
+NAMESPACE   NAME                                                                       AGE
+jx          task.tekton.dev/mentor-medier-ans-validator-mas-nkw86-from-build-pack-9    18d
+jx          task.tekton.dev/mentor-medier-ans-validator-pr-9qdzj-from-build-pack-5     18d
+jx          task.tekton.dev/mentor-medier-ans-validator-pr-dq2mc-from-build-pack-1     18d
+jx          task.tekton.dev/mentor-medier-ans-validator-pr-kltfk-from-build-pack-4     18d
+jx          task.tekton.dev/mentor-medier-ans-validator-pr-q9s2f-from-build-pack-3     18d
+jx          task.tekton.dev/mentor-medier-ans-validator-pr-wbfl2-from-build-pack-2     18d
+jx          task.tekton.dev/mentor-medier-arc-loader-master-2dfgz-from-build-pack-4    4d
+jx          task.tekton.dev/mentor-medier-arc-loader-master-from-build-pack-1          40d
+jx          task.tekton.dev/mentor-medier-arc-loader-pr-2-s-25vf5-from-build-pack-9    39d
+jx          task.tekton.dev/mentor-medier-arc-loader-pr-2-s-9zjxz-from-build-pack-6    39d
+jx          task.tekton.dev/mentor-medier-arc-loader-pr-2-s-knkzx-from-build-pack-8    39d
+jx          task.tekton.dev/mentor-medier-arc-transformer-m-5qtbb-from-build-pack-18   5d
+jx          task.tekton.dev/mentor-medier-arc-transformer-m-7brlm-from-build-pack-21   6h
+jx          task.tekton.dev/mentor-medier-arc-transformer-m-8dx7w-from-build-pack-11   19d
+jx          task.tekton.dev/mentor-medier-arc-transformer-m-from-build-pack-1          24d
+jx          task.tekton.dev/mentor-medier-arc-transformer-m-l7bdw-from-build-pack-20   4d
+jx          task.tekton.dev/mentor-medier-arc-transformer-m-mlg8g-from-build-pack-17   6d
+jx          task.tekton.dev/mentor-medier-arc-transformer-m-qpx8h-from-build-pack-19   4d
+jx          task.tekton.dev/mentor-medier-arc-transformer-m-rccjs-from-build-pack-3    24d
+jx          task.tekton.dev/mentor-medier-arc-transformer-p-8g2nq-from-build-pack-2    7h
+jx          task.tekton.dev/mentor-medier-arc-transformer-p-8zxb4-from-build-pack-1    18d
+jx          task.tekton.dev/mentor-medier-arc-transformer-p-lp8ts-from-build-pack-1    19d
+jx          task.tekton.dev/mentor-medier-arc-transformer-p-m7rmn-from-build-pack-1    7h
+jx          task.tekton.dev/mentor-medier-aws-s3-service-ma-6qcnf-from-build-pack-22   11d
+jx          task.tekton.dev/mentor-medier-aws-s3-service-ma-fhw4s-from-build-pack-26   6d
+jx          task.tekton.dev/mentor-medier-aws-s3-service-ma-l2xm2-from-build-pack-24   7d
+jx          task.tekton.dev/mentor-medier-aws-s3-service-ma-lsjcr-from-build-pack-25   7d
+jx          task.tekton.dev/mentor-medier-aws-s3-service-ma-qm7zn-from-build-pack-16   20d
+jx          task.tekton.dev/mentor-medier-aws-s3-service-ma-wxmmv-from-build-pack-23   10d
+jx          task.tekton.dev/mentor-medier-environment-mento-46szk-from-build-pack-1    42d
+jx          task.tekton.dev/mentor-medier-environment-mento-4jw9j-from-build-pack-46   4d
+jx          task.tekton.dev/mentor-medier-environment-mento-4xdrw-from-build-pack-47   4d
+jx          task.tekton.dev/mentor-medier-environment-mento-54866-from-build-pack-45   4d
+jx          task.tekton.dev/mentor-medier-environment-mento-669qz-from-build-pack-5    42d
+jx          task.tekton.dev/mentor-medier-environment-mento-7g47c-from-build-pack-1    18d
+jx          task.tekton.dev/mentor-medier-environment-mento-9dbt5-from-build-pack-1    41d
+jx          task.tekton.dev/mentor-medier-environment-mento-bdnst-from-build-pack-7    42d
+jx          task.tekton.dev/mentor-medier-environment-mento-bf8wp-from-build-pack-1    19d
+jx          task.tekton.dev/mentor-medier-environment-mento-c6nl8-from-build-pack-1    4d
+jx          task.tekton.dev/mentor-medier-environment-mento-d795r-from-build-pack-27   19d
+jx          task.tekton.dev/mentor-medier-environment-mento-fncq2-from-build-pack-6    42d
+jx          task.tekton.dev/mentor-medier-environment-mento-k7nzt-from-build-pack-26   20d
+jx          task.tekton.dev/mentor-medier-environment-mento-l2wx8-from-build-pack-28   18d
+jx          task.tekton.dev/mentor-medier-environment-mento-lj5j5-from-build-pack-8    41d
+jx          task.tekton.dev/mentor-medier-environment-mento-vfxkb-from-build-pack-44   5d
+jx          task.tekton.dev/mentor-medier-environment-mento-x2qx5-from-build-pack-48   4d
+jx          task.tekton.dev/mentor-medier-environment-mento-xx8nj-from-build-pack-1    42d
+jx          task.tekton.dev/mentor-medier-environment-mento-z2qjp-from-build-pack-1    42d
+jx          task.tekton.dev/mentor-medier-etl-model-master-5pgsc-from-build-pack-8     12d
+jx          task.tekton.dev/mentor-medier-etl-model-master-9w6hp-from-build-pack-3     20d
+jx          task.tekton.dev/mentor-medier-etl-model-master-c6j4r-from-build-pack-11    7h
+jx          task.tekton.dev/mentor-medier-etl-model-master-from-build-pack-1           26d
+jx          task.tekton.dev/mentor-medier-etl-model-master-ftcsw-from-build-pack-9     12d
+jx          task.tekton.dev/mentor-medier-etl-model-master-pslxz-from-build-pack-7     12d
+jx          task.tekton.dev/mentor-medier-etl-model-master-vb7rz-from-build-pack-10    12d
+jx          task.tekton.dev/mentor-medier-etl-model-pr-3-se-from-build-pack-1          7h
+jx          task.tekton.dev/mentor-medier-etl-model-pr-3-se-kmt5n-from-build-pack-2    7h
+jx          task.tekton.dev/mentor-medier-jxspringtest-mast-6rffj-from-build-pack-2    42d
+jx          task.tekton.dev/mentor-medier-jxspringtest-mast-from-build-pack-1          42d
+jx          task.tekton.dev/mentor-medier-jxspringtest-pr-1-4dlcp-from-build-pack-6    42d
+jx          task.tekton.dev/mentor-medier-jxspringtest-pr-1-5t777-from-build-pack-2    42d
+jx          task.tekton.dev/mentor-medier-jxspringtest-pr-1-7vfl9-from-build-pack-4    42d
+jx          task.tekton.dev/mentor-medier-jxspringtest-pr-1-92ssk-from-build-pack-3    42d
+jx          task.tekton.dev/mentor-medier-jxspringtest-pr-1-from-build-pack-1          42d
+jx          task.tekton.dev/mentor-medier-jxspringtest-pr-1-rn4nz-from-build-pack-5    42d
+jx          task.tekton.dev/mentor-medier-jxtest-master-from-build-pack-1              42d
+jx          task.tekton.dev/mentor-medier-kafka-utils-maste-from-build-pack-1          26d
+jx          task.tekton.dev/mentor-medier-klarna-checkout-m-6k5js-from-build-pack-8    11d
+jx          task.tekton.dev/mentor-medier-klarna-checkout-m-from-build-pack-1          18d
+jx          task.tekton.dev/mentor-medier-klarna-checkout-m-kx8c8-from-build-pack-10   4d
+jx          task.tekton.dev/mentor-medier-klarna-checkout-m-qpql6-from-build-pack-9    4d
+jx          task.tekton.dev/mentor-medier-klarna-checkout-m-zgpbj-from-build-pack-7    12d
+jx          task.tekton.dev/mentor-medier-klarna-checkout-m-zsgwv-from-build-pack-6    12d
+jx          task.tekton.dev/mentor-medier-node-http-test-pr-jq7tk-from-build-pack-2    33d
+jx          task.tekton.dev/mentor-medier-polopoly-extracto-6vg2p-from-build-pack-3    6d
+jx          task.tekton.dev/mentor-medier-polopoly-extracto-tq8fz-from-build-pack-1    7d
+jx          task.tekton.dev/mentor-medier-polopoly-extracto-wkp6r-from-build-pack-2    7d
+jx          task.tekton.dev/mentor-medier-quickstart-1-mast-from-build-pack-1          4d
+jx          task.tekton.dev/meta-mentor-medier-ans-validato-2xpdg-meta-pipeline-5      18d
+jx          task.tekton.dev/meta-mentor-medier-ans-validato-5dfhz-meta-pipeline-2      18d
+jx          task.tekton.dev/meta-mentor-medier-ans-validato-8r6zc-meta-pipeline-1      18d
+jx          task.tekton.dev/meta-mentor-medier-ans-validato-grp26-meta-pipeline-3      18d
+jx          task.tekton.dev/meta-mentor-medier-ans-validato-mbbf6-meta-pipeline-4      18d
+jx          task.tekton.dev/meta-mentor-medier-ans-validato-tppfx-meta-pipeline-9      18d
+jx          task.tekton.dev/meta-mentor-medier-arc-loader-m-hd68q-meta-pipeline-4      4d
+jx          task.tekton.dev/meta-mentor-medier-arc-loader-m-meta-pipeline-1            40d
+jx          task.tekton.dev/meta-mentor-medier-arc-loader-p-2ldpt-meta-pipeline-6      39d
+jx          task.tekton.dev/meta-mentor-medier-arc-loader-p-9qqr2-meta-pipeline-8      39d
+jx          task.tekton.dev/meta-mentor-medier-arc-loader-p-z8d4v-meta-pipeline-9      39d
+jx          task.tekton.dev/meta-mentor-medier-arc-transfor-4knbv-meta-pipeline-18     5d
+jx          task.tekton.dev/meta-mentor-medier-arc-transfor-58b7g-meta-pipeline-21     6h
+jx          task.tekton.dev/meta-mentor-medier-arc-transfor-c2ckn-meta-pipeline-1      7h
+jx          task.tekton.dev/meta-mentor-medier-arc-transfor-cqb2m-meta-pipeline-1      18d
+jx          task.tekton.dev/meta-mentor-medier-arc-transfor-dqd5l-meta-pipeline-2      7h
+jx          task.tekton.dev/meta-mentor-medier-arc-transfor-gfcrn-meta-pipeline-3      24d
+jx          task.tekton.dev/meta-mentor-medier-arc-transfor-gkq8v-meta-pipeline-19     4d
+jx          task.tekton.dev/meta-mentor-medier-arc-transfor-jzf9z-meta-pipeline-11     19d
+jx          task.tekton.dev/meta-mentor-medier-arc-transfor-meta-pipeline-1            24d
+jx          task.tekton.dev/meta-mentor-medier-arc-transfor-npphf-meta-pipeline-1      19d
+jx          task.tekton.dev/meta-mentor-medier-arc-transfor-ql9mf-meta-pipeline-20     4d
+jx          task.tekton.dev/meta-mentor-medier-arc-transfor-vvgcc-meta-pipeline-17     6d
+jx          task.tekton.dev/meta-mentor-medier-aws-s3-servi-6msnv-meta-pipeline-26     6d
+jx          task.tekton.dev/meta-mentor-medier-aws-s3-servi-6z89w-meta-pipeline-24     7d
+jx          task.tekton.dev/meta-mentor-medier-aws-s3-servi-77kkg-meta-pipeline-23     10d
+jx          task.tekton.dev/meta-mentor-medier-aws-s3-servi-dhxwh-meta-pipeline-25     7d
+jx          task.tekton.dev/meta-mentor-medier-aws-s3-servi-r4wqb-meta-pipeline-22     11d
+jx          task.tekton.dev/meta-mentor-medier-aws-s3-servi-v65ht-meta-pipeline-16     20d
+jx          task.tekton.dev/meta-mentor-medier-environment-55rbk-meta-pipeline-1       41d
+jx          task.tekton.dev/meta-mentor-medier-environment-6vrl2-meta-pipeline-1       21d
+jx          task.tekton.dev/meta-mentor-medier-environment-6zv86-meta-pipeline-5       42d
+jx          task.tekton.dev/meta-mentor-medier-environment-748gv-meta-pipeline-1       42d
+jx          task.tekton.dev/meta-mentor-medier-environment-7zjp4-meta-pipeline-45      4d
+jx          task.tekton.dev/meta-mentor-medier-environment-8t4hn-meta-pipeline-28      18d
+jx          task.tekton.dev/meta-mentor-medier-environment-9rmdm-meta-pipeline-44      5d
+jx          task.tekton.dev/meta-mentor-medier-environment-9zsjn-meta-pipeline-42      6d
+jx          task.tekton.dev/meta-mentor-medier-environment-f4zkp-meta-pipeline-6       42d
+jx          task.tekton.dev/meta-mentor-medier-environment-gbs8s-meta-pipeline-1       19d
+jx          task.tekton.dev/meta-mentor-medier-environment-gkg56-meta-pipeline-26      20d
+jx          task.tekton.dev/meta-mentor-medier-environment-glv22-meta-pipeline-1       42d
+jx          task.tekton.dev/meta-mentor-medier-environment-gwz2f-meta-pipeline-27      19d
+jx          task.tekton.dev/meta-mentor-medier-environment-hpbct-meta-pipeline-47      4d
+jx          task.tekton.dev/meta-mentor-medier-environment-ljvwd-meta-pipeline-1       4d
+jx          task.tekton.dev/meta-mentor-medier-environment-sz629-meta-pipeline-1       42d
+jx          task.tekton.dev/meta-mentor-medier-environment-th66b-meta-pipeline-1       18d
+jx          task.tekton.dev/meta-mentor-medier-environment-vbchb-meta-pipeline-8       41d
+jx          task.tekton.dev/meta-mentor-medier-environment-xlnmd-meta-pipeline-48      4d
+jx          task.tekton.dev/meta-mentor-medier-environment-xr792-meta-pipeline-46      4d
+jx          task.tekton.dev/meta-mentor-medier-environment-zhdxx-meta-pipeline-7       42d
+jx          task.tekton.dev/meta-mentor-medier-etl-model-ma-69j44-meta-pipeline-10     12d
+jx          task.tekton.dev/meta-mentor-medier-etl-model-ma-dwnfb-meta-pipeline-8      12d
+jx          task.tekton.dev/meta-mentor-medier-etl-model-ma-g7pdd-meta-pipeline-3      20d
+jx          task.tekton.dev/meta-mentor-medier-etl-model-ma-j86nt-meta-pipeline-9      12d
+jx          task.tekton.dev/meta-mentor-medier-etl-model-ma-meta-pipeline-1            26d
+jx          task.tekton.dev/meta-mentor-medier-etl-model-ma-rf6dz-meta-pipeline-11     7h
+jx          task.tekton.dev/meta-mentor-medier-etl-model-ma-scpcv-meta-pipeline-7      12d
+jx          task.tekton.dev/meta-mentor-medier-etl-model-pr-krx5v-meta-pipeline-2      7h
+jx          task.tekton.dev/meta-mentor-medier-etl-model-pr-xtw4m-meta-pipeline-1      7h
+jx          task.tekton.dev/meta-mentor-medier-jxspringtest-7hfsx-meta-pipeline-2      42d
+jx          task.tekton.dev/meta-mentor-medier-jxspringtest-cjwff-meta-pipeline-5      42d
+jx          task.tekton.dev/meta-mentor-medier-jxspringtest-fqv25-meta-pipeline-1      42d
+jx          task.tekton.dev/meta-mentor-medier-jxspringtest-kwv58-meta-pipeline-2      42d
+jx          task.tekton.dev/meta-mentor-medier-jxspringtest-meta-pipeline-1            42d
+jx          task.tekton.dev/meta-mentor-medier-jxspringtest-mp928-meta-pipeline-4      42d
+jx          task.tekton.dev/meta-mentor-medier-jxspringtest-nwg42-meta-pipeline-3      42d
+jx          task.tekton.dev/meta-mentor-medier-jxspringtest-xgnhj-meta-pipeline-6      42d
+jx          task.tekton.dev/meta-mentor-medier-jxtest-maste-meta-pipeline-1            42d
+jx          task.tekton.dev/meta-mentor-medier-k8s-test-mas-5tbkn-meta-pipeline-2      42d
+jx          task.tekton.dev/meta-mentor-medier-k8s-test-mas-meta-pipeline-1            42d
+jx          task.tekton.dev/meta-mentor-medier-k8s-test-mas-xxtwn-meta-pipeline-3      42d
+jx          task.tekton.dev/meta-mentor-medier-kafka-utils-meta-pipeline-1             26d
+jx          task.tekton.dev/meta-mentor-medier-klarna-check-5fr6n-meta-pipeline-9      4d
+jx          task.tekton.dev/meta-mentor-medier-klarna-check-fz9f5-meta-pipeline-8      11d
+jx          task.tekton.dev/meta-mentor-medier-klarna-check-hq2xl-meta-pipeline-10     4d
+jx          task.tekton.dev/meta-mentor-medier-klarna-check-kkrns-meta-pipeline-7      12d
+jx          task.tekton.dev/meta-mentor-medier-klarna-check-meta-pipeline-1            18d
+jx          task.tekton.dev/meta-mentor-medier-klarna-check-p672w-meta-pipeline-6      12d
+jx          task.tekton.dev/meta-mentor-medier-node-http-te-mnmq4-meta-pipeline-2      33d
+jx          task.tekton.dev/meta-mentor-medier-polopoly-ext-lcrr2-meta-pipeline-4      6d
+jx          task.tekton.dev/meta-mentor-medier-polopoly-ext-r7g6b-meta-pipeline-1      7d
+jx          task.tekton.dev/meta-mentor-medier-polopoly-ext-r7skw-meta-pipeline-3      6d
+jx          task.tekton.dev/meta-mentor-medier-polopoly-ext-sczpd-meta-pipeline-2      7d
+jx          task.tekton.dev/meta-mentor-medier-quickstart-1-meta-pipeline-1            4d
+NAMESPACE   NAME                                                          AGE
+jx          pipelineresource.tekton.dev/mentor-medier-ans-validator-mas   33d
+jx          pipelineresource.tekton.dev/mentor-medier-ans-validator-pr    33d
+jx          pipelineresource.tekton.dev/mentor-medier-arc-loader-master   40d
+jx          pipelineresource.tekton.dev/mentor-medier-arc-loader-pr-2-s   40d
+jx          pipelineresource.tekton.dev/mentor-medier-arc-loader-pr-3-s   4d
+jx          pipelineresource.tekton.dev/mentor-medier-arc-loader-pr-4-s   3d
+jx          pipelineresource.tekton.dev/mentor-medier-arc-transformer-m   24d
+jx          pipelineresource.tekton.dev/mentor-medier-arc-transformer-p   21d
+jx          pipelineresource.tekton.dev/mentor-medier-aws-s3-service-ma   33d
+jx          pipelineresource.tekton.dev/mentor-medier-aws-s3-service-pr   33d
+jx          pipelineresource.tekton.dev/mentor-medier-environment-mento   47d
+jx          pipelineresource.tekton.dev/mentor-medier-etl-model-master    26d
+jx          pipelineresource.tekton.dev/mentor-medier-etl-model-pr-1-se   17d
+jx          pipelineresource.tekton.dev/mentor-medier-etl-model-pr-2-se   12d
+jx          pipelineresource.tekton.dev/mentor-medier-etl-model-pr-3-se   7h
+jx          pipelineresource.tekton.dev/mentor-medier-etlutils-master     20d
+jx          pipelineresource.tekton.dev/mentor-medier-etlutils-master-r   20d
+jx          pipelineresource.tekton.dev/mentor-medier-java11test-master   46d
+jx          pipelineresource.tekton.dev/mentor-medier-java11test2-maste   46d
+jx          pipelineresource.tekton.dev/mentor-medier-jenkinsx-test3-ma   39d
+jx          pipelineresource.tekton.dev/mentor-medier-jenkinsx-test3-pr   39d
+jx          pipelineresource.tekton.dev/mentor-medier-jxspringtest-mast   42d
+jx          pipelineresource.tekton.dev/mentor-medier-jxspringtest-pr-1   42d
+jx          pipelineresource.tekton.dev/mentor-medier-jxtest-master       42d
+jx          pipelineresource.tekton.dev/mentor-medier-k8s-dev-master      47d
+jx          pipelineresource.tekton.dev/mentor-medier-k8s-dev-master-re   47d
+jx          pipelineresource.tekton.dev/mentor-medier-k8s-dev-pr-2-serv   47d
+jx          pipelineresource.tekton.dev/mentor-medier-k8s-test2-master    42d
+jx          pipelineresource.tekton.dev/mentor-medier-k8stest-master      42d
+jx          pipelineresource.tekton.dev/mentor-medier-k8stest-master-re   41d
+jx          pipelineresource.tekton.dev/mentor-medier-kafka-demo-master   31d
+jx          pipelineresource.tekton.dev/mentor-medier-kafka-utils-maste   26d
+jx          pipelineresource.tekton.dev/mentor-medier-klarna-checkout-m   18d
+jx          pipelineresource.tekton.dev/mentor-medier-klarna-checkout-p   18d
+jx          pipelineresource.tekton.dev/mentor-medier-node-http-test-ma   33d
+jx          pipelineresource.tekton.dev/mentor-medier-node-http-test-pr   33d
+jx          pipelineresource.tekton.dev/mentor-medier-polopoly-extracto   46d
+jx          pipelineresource.tekton.dev/mentor-medier-quickstart-1-mast   4d
+jx          pipelineresource.tekton.dev/mentor-medier-spring-boot-pipel   39d
+jx          pipelineresource.tekton.dev/mentor-medier-spring-boot-rest    40d
+jx          pipelineresource.tekton.dev/mentor-medier-superutils-master   39d
+jx          pipelineresource.tekton.dev/meta-mentor-medier-ans-validato   33d
+jx          pipelineresource.tekton.dev/meta-mentor-medier-arc-loader-m   40d
+jx          pipelineresource.tekton.dev/meta-mentor-medier-arc-loader-p   40d
+jx          pipelineresource.tekton.dev/meta-mentor-medier-arc-transfor   24d
+jx          pipelineresource.tekton.dev/meta-mentor-medier-aws-s3-servi   33d
+jx          pipelineresource.tekton.dev/meta-mentor-medier-environment    47d
+jx          pipelineresource.tekton.dev/meta-mentor-medier-etl-model-ma   26d
+jx          pipelineresource.tekton.dev/meta-mentor-medier-etl-model-pr   17d
+jx          pipelineresource.tekton.dev/meta-mentor-medier-etlutils-mas   20d
+jx          pipelineresource.tekton.dev/meta-mentor-medier-java11test-m   46d
+jx          pipelineresource.tekton.dev/meta-mentor-medier-java11test2    46d
+jx          pipelineresource.tekton.dev/meta-mentor-medier-jenkinsx-tes   39d
+jx          pipelineresource.tekton.dev/meta-mentor-medier-jxspringtest   42d
+jx          pipelineresource.tekton.dev/meta-mentor-medier-jxtest-maste   42d
+jx          pipelineresource.tekton.dev/meta-mentor-medier-k8s-dev-mast   47d
+jx          pipelineresource.tekton.dev/meta-mentor-medier-k8s-dev-pr-2   47d
+jx          pipelineresource.tekton.dev/meta-mentor-medier-k8s-test-mas   42d
+jx          pipelineresource.tekton.dev/meta-mentor-medier-k8s-test2-ma   42d
+jx          pipelineresource.tekton.dev/meta-mentor-medier-k8stest-mast   42d
+jx          pipelineresource.tekton.dev/meta-mentor-medier-kafka-demo-m   31d
+jx          pipelineresource.tekton.dev/meta-mentor-medier-kafka-utils    26d
+jx          pipelineresource.tekton.dev/meta-mentor-medier-klarna-check   18d
+jx          pipelineresource.tekton.dev/meta-mentor-medier-node-http-te   33d
+jx          pipelineresource.tekton.dev/meta-mentor-medier-polopoly-ext   46d
+jx          pipelineresource.tekton.dev/meta-mentor-medier-quickstart-1   4d
+jx          pipelineresource.tekton.dev/meta-mentor-medier-spring-boot    40d
+jx          pipelineresource.tekton.dev/meta-mentor-medier-superutils-m   39d
+NAMESPACE   NAME                                                           AGE
+jx          pipeline.tekton.dev/mentor-medier-ans-validator-mas-nkw86-9    18d
+jx          pipeline.tekton.dev/mentor-medier-ans-validator-pr-9qdzj-5     18d
+jx          pipeline.tekton.dev/mentor-medier-ans-validator-pr-dq2mc-1     18d
+jx          pipeline.tekton.dev/mentor-medier-ans-validator-pr-kltfk-4     18d
+jx          pipeline.tekton.dev/mentor-medier-ans-validator-pr-q9s2f-3     18d
+jx          pipeline.tekton.dev/mentor-medier-ans-validator-pr-wbfl2-2     18d
+jx          pipeline.tekton.dev/mentor-medier-arc-loader-master-1          40d
+jx          pipeline.tekton.dev/mentor-medier-arc-loader-master-2dfgz-4    4d
+jx          pipeline.tekton.dev/mentor-medier-arc-loader-pr-2-s-25vf5-9    39d
+jx          pipeline.tekton.dev/mentor-medier-arc-loader-pr-2-s-9zjxz-6    39d
+jx          pipeline.tekton.dev/mentor-medier-arc-loader-pr-2-s-knkzx-8    39d
+jx          pipeline.tekton.dev/mentor-medier-arc-transformer-m-1          24d
+jx          pipeline.tekton.dev/mentor-medier-arc-transformer-m-5qtbb-18   5d
+jx          pipeline.tekton.dev/mentor-medier-arc-transformer-m-7brlm-21   6h
+jx          pipeline.tekton.dev/mentor-medier-arc-transformer-m-8dx7w-11   19d
+jx          pipeline.tekton.dev/mentor-medier-arc-transformer-m-l7bdw-20   4d
+jx          pipeline.tekton.dev/mentor-medier-arc-transformer-m-mlg8g-17   6d
+jx          pipeline.tekton.dev/mentor-medier-arc-transformer-m-qpx8h-19   4d
+jx          pipeline.tekton.dev/mentor-medier-arc-transformer-m-rccjs-3    24d
+jx          pipeline.tekton.dev/mentor-medier-arc-transformer-p-8g2nq-2    7h
+jx          pipeline.tekton.dev/mentor-medier-arc-transformer-p-8zxb4-1    18d
+jx          pipeline.tekton.dev/mentor-medier-arc-transformer-p-lp8ts-1    19d
+jx          pipeline.tekton.dev/mentor-medier-arc-transformer-p-m7rmn-1    7h
+jx          pipeline.tekton.dev/mentor-medier-aws-s3-service-ma-6qcnf-22   11d
+jx          pipeline.tekton.dev/mentor-medier-aws-s3-service-ma-fhw4s-26   6d
+jx          pipeline.tekton.dev/mentor-medier-aws-s3-service-ma-l2xm2-24   7d
+jx          pipeline.tekton.dev/mentor-medier-aws-s3-service-ma-lsjcr-25   7d
+jx          pipeline.tekton.dev/mentor-medier-aws-s3-service-ma-qm7zn-16   20d
+jx          pipeline.tekton.dev/mentor-medier-aws-s3-service-ma-wxmmv-23   10d
+jx          pipeline.tekton.dev/mentor-medier-environment-mento-46szk-1    42d
+jx          pipeline.tekton.dev/mentor-medier-environment-mento-4jw9j-46   4d
+jx          pipeline.tekton.dev/mentor-medier-environment-mento-4xdrw-47   4d
+jx          pipeline.tekton.dev/mentor-medier-environment-mento-54866-45   4d
+jx          pipeline.tekton.dev/mentor-medier-environment-mento-669qz-5    42d
+jx          pipeline.tekton.dev/mentor-medier-environment-mento-7g47c-1    18d
+jx          pipeline.tekton.dev/mentor-medier-environment-mento-9dbt5-1    41d
+jx          pipeline.tekton.dev/mentor-medier-environment-mento-bdnst-7    42d
+jx          pipeline.tekton.dev/mentor-medier-environment-mento-bf8wp-1    19d
+jx          pipeline.tekton.dev/mentor-medier-environment-mento-c6nl8-1    4d
+jx          pipeline.tekton.dev/mentor-medier-environment-mento-d795r-27   19d
+jx          pipeline.tekton.dev/mentor-medier-environment-mento-fncq2-6    42d
+jx          pipeline.tekton.dev/mentor-medier-environment-mento-k7nzt-26   20d
+jx          pipeline.tekton.dev/mentor-medier-environment-mento-l2wx8-28   18d
+jx          pipeline.tekton.dev/mentor-medier-environment-mento-lj5j5-8    41d
+jx          pipeline.tekton.dev/mentor-medier-environment-mento-vfxkb-44   5d
+jx          pipeline.tekton.dev/mentor-medier-environment-mento-x2qx5-48   4d
+jx          pipeline.tekton.dev/mentor-medier-environment-mento-xx8nj-1    42d
+jx          pipeline.tekton.dev/mentor-medier-environment-mento-z2qjp-1    42d
+jx          pipeline.tekton.dev/mentor-medier-etl-model-master-1           26d
+jx          pipeline.tekton.dev/mentor-medier-etl-model-master-5pgsc-8     12d
+jx          pipeline.tekton.dev/mentor-medier-etl-model-master-9w6hp-3     20d
+jx          pipeline.tekton.dev/mentor-medier-etl-model-master-c6j4r-11    7h
+jx          pipeline.tekton.dev/mentor-medier-etl-model-master-ftcsw-9     12d
+jx          pipeline.tekton.dev/mentor-medier-etl-model-master-pslxz-7     12d
+jx          pipeline.tekton.dev/mentor-medier-etl-model-master-vb7rz-10    12d
+jx          pipeline.tekton.dev/mentor-medier-etl-model-pr-3-se-1          7h
+jx          pipeline.tekton.dev/mentor-medier-etl-model-pr-3-se-kmt5n-2    7h
+jx          pipeline.tekton.dev/mentor-medier-jxspringtest-mast-1          42d
+jx          pipeline.tekton.dev/mentor-medier-jxspringtest-mast-6rffj-2    42d
+jx          pipeline.tekton.dev/mentor-medier-jxspringtest-pr-1-1          42d
+jx          pipeline.tekton.dev/mentor-medier-jxspringtest-pr-1-4dlcp-6    42d
+jx          pipeline.tekton.dev/mentor-medier-jxspringtest-pr-1-5t777-2    42d
+jx          pipeline.tekton.dev/mentor-medier-jxspringtest-pr-1-7vfl9-4    42d
+jx          pipeline.tekton.dev/mentor-medier-jxspringtest-pr-1-92ssk-3    42d
+jx          pipeline.tekton.dev/mentor-medier-jxspringtest-pr-1-rn4nz-5    42d
+jx          pipeline.tekton.dev/mentor-medier-jxtest-master-1              42d
+jx          pipeline.tekton.dev/mentor-medier-kafka-utils-maste-1          26d
+jx          pipeline.tekton.dev/mentor-medier-klarna-checkout-m-1          18d
+jx          pipeline.tekton.dev/mentor-medier-klarna-checkout-m-6k5js-8    11d
+jx          pipeline.tekton.dev/mentor-medier-klarna-checkout-m-kx8c8-10   4d
+jx          pipeline.tekton.dev/mentor-medier-klarna-checkout-m-qpql6-9    4d
+jx          pipeline.tekton.dev/mentor-medier-klarna-checkout-m-zgpbj-7    12d
+jx          pipeline.tekton.dev/mentor-medier-klarna-checkout-m-zsgwv-6    12d
+jx          pipeline.tekton.dev/mentor-medier-node-http-test-pr-jq7tk-2    33d
+jx          pipeline.tekton.dev/mentor-medier-polopoly-extracto-6vg2p-3    6d
+jx          pipeline.tekton.dev/mentor-medier-polopoly-extracto-tq8fz-1    7d
+jx          pipeline.tekton.dev/mentor-medier-polopoly-extracto-wkp6r-2    7d
+jx          pipeline.tekton.dev/mentor-medier-quickstart-1-mast-1          4d
+jx          pipeline.tekton.dev/meta-mentor-medier-ans-validato-2xpdg-5    18d
+jx          pipeline.tekton.dev/meta-mentor-medier-ans-validato-5dfhz-2    18d
+jx          pipeline.tekton.dev/meta-mentor-medier-ans-validato-8r6zc-1    18d
+jx          pipeline.tekton.dev/meta-mentor-medier-ans-validato-grp26-3    18d
+jx          pipeline.tekton.dev/meta-mentor-medier-ans-validato-mbbf6-4    18d
+jx          pipeline.tekton.dev/meta-mentor-medier-ans-validato-tppfx-9    18d
+jx          pipeline.tekton.dev/meta-mentor-medier-arc-loader-m-1          40d
+jx          pipeline.tekton.dev/meta-mentor-medier-arc-loader-m-hd68q-4    4d
+jx          pipeline.tekton.dev/meta-mentor-medier-arc-loader-p-2ldpt-6    39d
+jx          pipeline.tekton.dev/meta-mentor-medier-arc-loader-p-9qqr2-8    39d
+jx          pipeline.tekton.dev/meta-mentor-medier-arc-loader-p-z8d4v-9    39d
+jx          pipeline.tekton.dev/meta-mentor-medier-arc-transfor-1          24d
+jx          pipeline.tekton.dev/meta-mentor-medier-arc-transfor-4knbv-18   5d
+jx          pipeline.tekton.dev/meta-mentor-medier-arc-transfor-58b7g-21   6h
+jx          pipeline.tekton.dev/meta-mentor-medier-arc-transfor-c2ckn-1    7h
+jx          pipeline.tekton.dev/meta-mentor-medier-arc-transfor-cqb2m-1    18d
+jx          pipeline.tekton.dev/meta-mentor-medier-arc-transfor-dqd5l-2    7h
+jx          pipeline.tekton.dev/meta-mentor-medier-arc-transfor-gfcrn-3    24d
+jx          pipeline.tekton.dev/meta-mentor-medier-arc-transfor-gkq8v-19   4d
+jx          pipeline.tekton.dev/meta-mentor-medier-arc-transfor-jzf9z-11   19d
+jx          pipeline.tekton.dev/meta-mentor-medier-arc-transfor-npphf-1    19d
+jx          pipeline.tekton.dev/meta-mentor-medier-arc-transfor-ql9mf-20   4d
+jx          pipeline.tekton.dev/meta-mentor-medier-arc-transfor-vvgcc-17   6d
+jx          pipeline.tekton.dev/meta-mentor-medier-aws-s3-servi-6msnv-26   6d
+jx          pipeline.tekton.dev/meta-mentor-medier-aws-s3-servi-6z89w-24   7d
+jx          pipeline.tekton.dev/meta-mentor-medier-aws-s3-servi-77kkg-23   10d
+jx          pipeline.tekton.dev/meta-mentor-medier-aws-s3-servi-dhxwh-25   7d
+jx          pipeline.tekton.dev/meta-mentor-medier-aws-s3-servi-r4wqb-22   11d
+jx          pipeline.tekton.dev/meta-mentor-medier-aws-s3-servi-v65ht-16   20d
+jx          pipeline.tekton.dev/meta-mentor-medier-environment-55rbk-1     41d
+jx          pipeline.tekton.dev/meta-mentor-medier-environment-6vrl2-1     21d
+jx          pipeline.tekton.dev/meta-mentor-medier-environment-6zv86-5     42d
+jx          pipeline.tekton.dev/meta-mentor-medier-environment-748gv-1     42d
+jx          pipeline.tekton.dev/meta-mentor-medier-environment-7zjp4-45    4d
+jx          pipeline.tekton.dev/meta-mentor-medier-environment-8t4hn-28    18d
+jx          pipeline.tekton.dev/meta-mentor-medier-environment-9rmdm-44    5d
+jx          pipeline.tekton.dev/meta-mentor-medier-environment-9zsjn-42    6d
+jx          pipeline.tekton.dev/meta-mentor-medier-environment-f4zkp-6     42d
+jx          pipeline.tekton.dev/meta-mentor-medier-environment-gbs8s-1     19d
+jx          pipeline.tekton.dev/meta-mentor-medier-environment-gkg56-26    20d
+jx          pipeline.tekton.dev/meta-mentor-medier-environment-glv22-1     42d
+jx          pipeline.tekton.dev/meta-mentor-medier-environment-gwz2f-27    19d
+jx          pipeline.tekton.dev/meta-mentor-medier-environment-hpbct-47    4d
+jx          pipeline.tekton.dev/meta-mentor-medier-environment-ljvwd-1     4d
+jx          pipeline.tekton.dev/meta-mentor-medier-environment-sz629-1     42d
+jx          pipeline.tekton.dev/meta-mentor-medier-environment-th66b-1     18d
+jx          pipeline.tekton.dev/meta-mentor-medier-environment-vbchb-8     41d
+jx          pipeline.tekton.dev/meta-mentor-medier-environment-xlnmd-48    4d
+jx          pipeline.tekton.dev/meta-mentor-medier-environment-xr792-46    4d
+jx          pipeline.tekton.dev/meta-mentor-medier-environment-zhdxx-7     42d
+jx          pipeline.tekton.dev/meta-mentor-medier-etl-model-ma-1          26d
+jx          pipeline.tekton.dev/meta-mentor-medier-etl-model-ma-69j44-10   12d
+jx          pipeline.tekton.dev/meta-mentor-medier-etl-model-ma-dwnfb-8    12d
+jx          pipeline.tekton.dev/meta-mentor-medier-etl-model-ma-g7pdd-3    20d
+jx          pipeline.tekton.dev/meta-mentor-medier-etl-model-ma-j86nt-9    12d
+jx          pipeline.tekton.dev/meta-mentor-medier-etl-model-ma-rf6dz-11   7h
+jx          pipeline.tekton.dev/meta-mentor-medier-etl-model-ma-scpcv-7    12d
+jx          pipeline.tekton.dev/meta-mentor-medier-etl-model-pr-krx5v-2    7h
+jx          pipeline.tekton.dev/meta-mentor-medier-etl-model-pr-xtw4m-1    7h
+jx          pipeline.tekton.dev/meta-mentor-medier-jxspringtest-1          42d
+jx          pipeline.tekton.dev/meta-mentor-medier-jxspringtest-7hfsx-2    42d
+jx          pipeline.tekton.dev/meta-mentor-medier-jxspringtest-cjwff-5    42d
+jx          pipeline.tekton.dev/meta-mentor-medier-jxspringtest-fqv25-1    42d
+jx          pipeline.tekton.dev/meta-mentor-medier-jxspringtest-kwv58-2    42d
+jx          pipeline.tekton.dev/meta-mentor-medier-jxspringtest-mp928-4    42d
+jx          pipeline.tekton.dev/meta-mentor-medier-jxspringtest-nwg42-3    42d
+jx          pipeline.tekton.dev/meta-mentor-medier-jxspringtest-xgnhj-6    42d
+jx          pipeline.tekton.dev/meta-mentor-medier-jxtest-maste-1          42d
+jx          pipeline.tekton.dev/meta-mentor-medier-k8s-test-mas-1          42d
+jx          pipeline.tekton.dev/meta-mentor-medier-k8s-test-mas-5tbkn-2    42d
+jx          pipeline.tekton.dev/meta-mentor-medier-k8s-test-mas-xxtwn-3    42d
+jx          pipeline.tekton.dev/meta-mentor-medier-kafka-utils-1           26d
+jx          pipeline.tekton.dev/meta-mentor-medier-klarna-check-1          18d
+jx          pipeline.tekton.dev/meta-mentor-medier-klarna-check-5fr6n-9    4d
+jx          pipeline.tekton.dev/meta-mentor-medier-klarna-check-fz9f5-8    11d
+jx          pipeline.tekton.dev/meta-mentor-medier-klarna-check-hq2xl-10   4d
+jx          pipeline.tekton.dev/meta-mentor-medier-klarna-check-kkrns-7    12d
+jx          pipeline.tekton.dev/meta-mentor-medier-klarna-check-p672w-6    12d
+jx          pipeline.tekton.dev/meta-mentor-medier-node-http-te-mnmq4-2    33d
+jx          pipeline.tekton.dev/meta-mentor-medier-polopoly-ext-lcrr2-4    6d
+jx          pipeline.tekton.dev/meta-mentor-medier-polopoly-ext-r7g6b-1    7d
+jx          pipeline.tekton.dev/meta-mentor-medier-polopoly-ext-r7skw-3    6d
+jx          pipeline.tekton.dev/meta-mentor-medier-polopoly-ext-sczpd-2    7d
+jx          pipeline.tekton.dev/meta-mentor-medier-quickstart-1-1          4d

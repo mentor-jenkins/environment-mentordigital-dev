@@ -1,7 +1,9 @@
 autoUpdate:
   enabled: false
   schedule: ""
+bootConfigURL: https://github.com/Mentor-Medier/jenkins-x-boot-config
 cluster:
+  azure: {}
   clusterName: mentordigital
   environmentGitOwner: mentor-jenkins
   gitKind: github

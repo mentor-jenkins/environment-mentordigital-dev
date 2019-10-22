@@ -15,6 +15,8 @@ pipelineConfig:
         environment:
           - name: GOPROXY
             value: http://jenkins-x-athens-proxy:80
+          - name: JX_REQUIREMENT_VAULT_DISABLE_URL_DISCOVERY
+            value: "true"
           - name: DOMAIN_ROTATION
             value: "true"
           - name: DOMAIN_PREFIX
@@ -23,7 +25,9 @@ pipelineConfig:
             value: ".bdd.jenkins-x.rocks"
           - name: GKE_SA
             value: /secrets/bdd/sa.json
-          - name: GH_ACCESS_TOKEN 
+          - name: JX_REQUIREMENT_VAULT_DISABLE_URL_DISCOVERY
+            value: "true"
+          - name: GH_ACCESS_TOKEN
             valueFrom:
               secretKeyRef:
                 name: jenkins-x-bot-test-github
@@ -34,7 +38,7 @@ pipelineConfig:
                 name: test-jenkins-user 
                 key: password
         agent:
-          image: gcr.io/jenkinsxio/builder-go-maven:0.1.773
+          image: gcr.io/jenkinsxio/builder-go-maven
         stages:
           - name: ci
             options:

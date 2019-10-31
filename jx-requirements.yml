@@ -3,15 +3,16 @@ autoUpdate:
   schedule: ""
 bootConfigURL: https://github.com/Mentor-Medier/jenkins-x-boot-config
 cluster:
-  azure: {}
+  
   clusterName: mentordigital
-  environmentGitOwner: mentor-jenkins
+  environmentGitOwner: mentor-medier
   gitKind: github
   gitName: github
   gitServer: https://github.com
   namespace: jx
   provider: eks
   region: eu-west-1
+  registry: 523883733847.dkr.ecr.eu-west-1.amazonaws.com
 environments:
 - ingress:
     domain: mentordigital.io
@@ -57,16 +58,16 @@ storage:
     url: ""
   logs:
     enabled: true
-    url: ""
+    url: s3://mentordigital-logs-39756513-9b3d-4ea9-bb8b-b87303282332
   reports:
     enabled: true
-    url: ""
+    url: s3://mentordigital-reports-4739c5f9-7ca4-4f00-914c-8ead7155306b
   repository:
     enabled: true
-    url: ""
+    url: s3://mentordigital-repository-d40aa5fe-beb7-43b6-9c06-a0d2dba0a2b1
 vault: {}
 velero: {}
 versionStream:
-  ref: v1.0.157
+  ref: v1.0.171
   url: https://github.com/jenkins-x/jenkins-x-versions.git
 webhook: prow

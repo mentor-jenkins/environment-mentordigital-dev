@@ -16,7 +16,8 @@ environments:
 - ingress:
     domain: mentordigital.io
     externalDNS: true
-    namespaceSubDomain: jx
+
+    namespaceSubDomain: jx-dev
     tls:
       email: devops@mentordigital.io
       enabled: true
@@ -44,7 +45,7 @@ gitops: true
 ingress:
   domain: mentordigital.io
   externalDNS: true
-  namespaceSubDomain: jx
+  namespaceSubDomain: .jx.
   tls:
     email: devops@mentordigital.io
     enabled: true

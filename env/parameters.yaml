@@ -1,10 +1,10 @@
 adminUser:
-  password: local:teams/jx/adminUser:password
+  password: local:mentordigital/adminUser:password
   username: admin
 enableDocker: false
 pipelineUser:
   email: devops@mentordigital.no
-  token: local:teams/jx/pipelineUser:token
+  token: local:mentordigital/pipelineUser:token
   username: mentor-jenkins
 prow:
-  hmacToken: local:teams/jx/prow:hmacToken
+  hmacToken: local:mentordigital/prow:hmacToken

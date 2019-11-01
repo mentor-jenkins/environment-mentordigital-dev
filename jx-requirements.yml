@@ -15,7 +15,7 @@ cluster:
 environments:
 - ingress:
     domain: mentordigital.io
-    externalDNS: true
+    externalDNS: false
     namespaceSubDomain: .jx.
     tls:
       email: devops@mentordigital.io
@@ -24,7 +24,7 @@ environments:
   key: dev
 - ingress:
     domain: mentordigital.io
-    externalDNS: true
+    externalDNS: false
     namespaceSubDomain: jx-staging
     tls:
       email: devops@mentordigital.io
@@ -43,7 +43,7 @@ environments:
 gitops: true
 ingress:
   domain: mentordigital.io
-  externalDNS: true
+  externalDNS: false
   namespaceSubDomain: .jx.
   tls:
     email: devops@mentordigital.io

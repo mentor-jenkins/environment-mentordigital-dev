@@ -16,6 +16,7 @@ environments:
 - ingress:
     domain: mentordigital.io
     externalDNS: true
+
     namespaceSubDomain: .jx.
     tls:
       email: devops@mentordigital.io

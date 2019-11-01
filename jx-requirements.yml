@@ -64,7 +64,7 @@ storage:
   repository:
     enabled: true
     url: s3://mentordigital-repository-d40aa5fe-beb7-43b6-9c06-a0d2dba0a2b1
-vault: 
+vault:
   bucket: s3://jx-vault
 velero: {}
 versionStream:

@@ -8,20 +8,20 @@ pipelineConfig:
         stages:
         - name: pr-checks
           steps:
-          - args:
+          - name: verify-parameters
+            command: jx
+            args:
             - step
             - verify
             - values
             - --values-file=parameters.yaml
             - --schema-file=parameters.tmpl.schema.json
-            command: jx
             dir: /workspace/source/env
-            name: verify-parameters
-          - args:
-            - build
+          - name: lint-env-helm
             command: make
+            args:
+            - build
             dir: /workspace/source/env
-            name: lint-env-helm
     release:
       pipeline:
         agent:
@@ -29,38 +29,32 @@ pipelineConfig:
         environment:
         - name: DEPLOY_NAMESPACE
           value: jx
-        - name: GIT_AUTHOR_NAME
-          value: mentor-jenkins
-        - name: GIT_COMMITTER_NAME
-          value: mentor-jenkins
-        - name: GIT_AUTHOR_EMAIL
-          value: devops@mentordigital.no
-        - name: GIT_COMMITTER_EMAIL
-          value: devops@mentordigital.no
         stages:
         - name: release
           steps:
-          - args:
+          - name: validate-git
+            command: jx
+            args:
             - step
             - git
             - validate
-            command: jx
             dir: /workspace/source/env
-            name: validate-git
-          - args:
+          - name: verify-preinstall
+            command: jx
+            args:
             - step
             - verify
             - preinstall
             - --provider-values-dir="kubeProviders"
-            command: jx
             dir: /workspace/source
-            name: verify-preinstall
-          - args:
+          - name: install-jx-crds
+            command: jx
+            args:
             - upgrade
             - crd
+          - name: install-velero
             command: jx
-            name: install-jx-crds
-          - args:
+            args:
             - step
             - helm
             - apply
@@ -69,13 +63,13 @@ pipelineConfig:
             - --no-vault
             - --name
             - velero
-            command: jx
             dir: /workspace/source/systems/velero
             env:
             - name: DEPLOY_NAMESPACE
               value: velero
-            name: install-velero
-          - args:
+          - name: install-velero-backups
+            command: jx
+            args:
             - step
             - helm
             - apply
@@ -84,13 +78,13 @@ pipelineConfig:
             - --no-vault
             - --name
             - velero-backups
-            command: jx
             dir: /workspace/source/systems/velero-backups
             env:
             - name: DEPLOY_NAMESPACE
               value: velero
-            name: install-velero-backups
-          - args:
+          - name: install-nginx-controller
+            command: jx
+            args:
             - step
             - helm
             - apply
@@ -99,22 +93,22 @@ pipelineConfig:
             - --no-vault
             - --name
             - jxing
-            command: jx
             dir: /workspace/source/systems/jxing
             env:
             - name: DEPLOY_NAMESPACE
               value: kube-system
-            name: install-nginx-controller
-          - args:
+          - name: create-install-values
+            command: jx
+            args:
             - step
             - create
             - install
             - values
             - -b
-            command: jx
             dir: /workspace/source/env
-            name: create-install-values
-          - args:
+          - name: install-external-dns
+            command: jx
+            args:
             - step
             - helm
             - apply
@@ -123,22 +117,22 @@ pipelineConfig:
             - --no-vault
             - --name
             - exdns
-            command: jx
             dir: /workspace/source/systems/external-dns
-            name: install-external-dns
-          - args:
+          - name: install-cert-manager-crds
+            command: kubectl
+            args:
             - apply
             - --wait
             - --validate=true
             - -f
             - https://raw.githubusercontent.com/jetstack/cert-manager/release-0.8/deploy/manifests/00-crds.yaml
-            command: kubectl
             dir: /workspace/source
             env:
             - name: DEPLOY_NAMESPACE
               value: cert-manager
-            name: install-cert-manager-crds
-          - args:
+          - name: install-cert-manager
+            command: jx
+            args:
             - step
             - helm
             - apply
@@ -147,13 +141,13 @@ pipelineConfig:
             - --no-vault
             - --name
             - cm
-            command: jx
             dir: /workspace/source/systems/cm
             env:
             - name: DEPLOY_NAMESPACE
               value: cert-manager
-            name: install-cert-manager
-          - args:
+          - name: install-acme-issuer-and-certificate
+            command: jx
+            args:
             - step
             - helm
             - apply
@@ -162,26 +156,26 @@ pipelineConfig:
             - --no-vault
             - --name
             - acme
-            command: jx
             dir: /workspace/source/systems/acme
-            name: install-acme-issuer-and-certificate
-          - args:
+          - name: install-vault
+            command: jx
+            args:
             - step
             - boot
             - vault
-            command: jx
             dir: /workspace/source/systems/vault
-            name: install-vault
-          - args:
+          - name: create-helm-values
+            command: jx
+            args:
             - step
             - create
             - values
             - --name
             - parameters
-            command: jx
             dir: /workspace/source/env
-            name: create-helm-values
-          - args:
+          - name: install-jenkins-x
+            command: jx
+            args:
             - step
             - helm
             - apply
@@ -191,49 +185,47 @@ pipelineConfig:
             - jenkins-x
             - --provider-values-dir
             - ../kubeProviders
-            command: jx
             dir: /workspace/source/env
-            name: install-jenkins-x
-          - args:
+          - name: verify-jenkins-x-environment
+            command: jx
+            args:
             - step
             - verify
             - env
-            command: jx
             dir: /workspace/source
-            name: verify-jenkins-x-environment
-          - args:
+          - name: install-repositories
+            command: jx
+            args:
             - step
             - helm
             - apply
             - --boot
             - --name
             - repos
-            command: jx
             dir: /workspace/source/repositories
-            name: install-repositories
-          - args:
+          - name: install-pipelines
+            command: jx
+            args:
             - step
             - scheduler
             - config
             - apply
             - --direct=true
-            command: jx
             dir: /workspace/source/prowConfig
-            name: install-pipelines
-          - args:
+          - name: update-webhooks
+            command: jx
+            args:
             - update
             - webhooks
             - --verbose
             - --warn-on-fail
-            command: jx
             dir: /workspace/source/repositories
-            name: update-webhooks
-          - args:
+          - name: verify-installation
+            command: jx
+            args:
             - step
             - verify
             - install
             - --pod-wait-time
             - 30m
-            command: jx
             dir: /workspace/source/env
-            name: verify-installation

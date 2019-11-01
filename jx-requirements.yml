@@ -15,7 +15,6 @@ cluster:
 environments:
 - ingress:
     domain: mentordigital.io
-
     externalDNS: false
     namespaceSubDomain: .jx.
     tls:

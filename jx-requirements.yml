@@ -15,7 +15,7 @@ cluster:
 environments:
 - ingress:
     domain: mentordigital.io
-    externalDNS: true
+    externalDNS: false
     namespaceSubDomain: .jx.
     tls:
       email: devops@mentordigital.io
@@ -24,7 +24,7 @@ environments:
   key: dev
 - ingress:
     domain: mentordigital.io
-    externalDNS: true
+    externalDNS: false
     namespaceSubDomain: jx-staging
     tls:
       email: devops@mentordigital.io
@@ -43,7 +43,7 @@ environments:
 gitops: true
 ingress:
   domain: mentordigital.io
-  externalDNS: true
+  externalDNS: false
   namespaceSubDomain: .jx.
   tls:
     email: devops@mentordigital.io
@@ -64,9 +64,10 @@ storage:
   repository:
     enabled: true
     url: s3://mentordigital-repository-d40aa5fe-beb7-43b6-9c06-a0d2dba0a2b1
-vault: {}
+vault: 
+  bucket: s3://jx-vault
 velero: {}
 versionStream:
-  ref: v1.0.171
+  ref: v1.0.173
   url: https://github.com/jenkins-x/jenkins-x-versions.git
 webhook: prow

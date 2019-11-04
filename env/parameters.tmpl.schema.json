@@ -4,7 +4,22 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "description": "install values.yaml",
   "type": "object",
-  "properties": {
+  "filebeat": {
+    "filebeat": {
+      "type": "object",
+      
+      "properties": {
+        "cloudId": {
+          "type": "string",
+          
+        },
+        "cloudAuth": {
+          "type": "string"
+         
+        }
+      }
+    },
+
     "adminUser": {
       "type": "object",
       "required": [

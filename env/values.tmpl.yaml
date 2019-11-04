@@ -6,3 +6,8 @@ tekton:
 {{- else }}
   enabled: false
 {{- end }}
+filebeat:
+  filebeatConfig:
+    filebeat.yml: "cloud.id: ${cloudId} \ncloud.auth: ${cloudAuth}
+       \nfilebeat.inputs:\n- type: docker\n  containers.ids:\n
+      \ - '*'\n  processors:\n  - add_kubernetes_metadata:\n      in_cluster: true\n"

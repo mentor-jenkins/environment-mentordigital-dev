@@ -151,3 +151,9 @@ gcpods:
   cronjob:
     enabled: true
     schedule: "0/30 * * * *"
+filebeat:
+    extraEnvs:
+      - cloudId: "{{ .Parameters.filebeat.cloudId }}"
+      - cloudAuth: "{{ .Parameters.filebeat.cloudAuth }}"
+
+

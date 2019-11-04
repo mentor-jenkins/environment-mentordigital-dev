@@ -17,3 +17,6 @@ dependencies:
 #- condition: chartmuseum.enabled
 #  name: chartmuseum
 #  repository: http://chartmuseum.jenkins-x.io
+- name: filebeat
+  version: 7.4.1
+  repository: https://helm.elastic.co

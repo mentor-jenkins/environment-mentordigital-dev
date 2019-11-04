@@ -8,3 +8,6 @@ pipelineUser:
   username: mentor-jenkins
 prow:
   hmacToken: local:mentordigital/prow:hmacToken
+filebeat:
+  cloudId: local:mentordigital/filebeat:cloudId
+  cloudAuth: local:mentordigital/filebeat:cloudAuth

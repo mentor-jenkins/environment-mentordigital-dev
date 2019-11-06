@@ -50,6 +50,7 @@ ingress:
     enabled: true
     production: true
 kaniko: true
+repository: nexus
 secretStorage: local
 storage:
   backup:
@@ -67,6 +68,6 @@ storage:
 vault: {}
 velero: {}
 versionStream:
-  ref: v1.0.173
+  ref: v1.0.185
   url: https://github.com/jenkins-x/jenkins-x-versions.git
 webhook: prow

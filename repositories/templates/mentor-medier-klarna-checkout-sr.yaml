@@ -1,0 +1,30 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  annotations:
+    jenkins.io/last-build-number-for-master: "17"
+    jenkins.io/last-build-number-for-pr-1: "2"
+    jenkins.io/last-build-number-for-pr-2: "3"
+    jenkins.io/last-build-number-for-pr-3: "4"
+    jenkins.io/last-build-number-for-pr-4: "2"
+    jenkins.io/last-build-number-for-pr-5: "8"
+    jenkins.io/last-build-number-for-pr-7: "2"
+    jenkins.io/last-build-number-for-pr-8: "1"
+  creationTimestamp: null
+  labels:
+    owner: Mentor-Medier
+    provider: github
+    repository: klarna-checkout
+  name: mentor-medier-klarna-checkout
+spec:
+  description: Imported application for Mentor-Medier/klarna-checkout
+  httpCloneURL: https://github.com/Mentor-Medier/klarna-checkout.git
+  org: Mentor-Medier
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: klarna-checkout
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/Mentor-Medier/klarna-checkout.git

@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: Mentor-Medier
+  repo: klarna-checkout
+  url: https://github.com/Mentor-Medier/klarna-checkout.git
+  version: ""
+  versionURL: ""
